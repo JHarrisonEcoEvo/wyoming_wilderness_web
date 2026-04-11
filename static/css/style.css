@@ -1,0 +1,308 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --sage: #7a8b6f;
+  --sage-light: #a3b18a;
+  --sage-pale: #dad7cd;
+  --tan: #c2a878;
+  --tan-light: #dcc9a3;
+  --brown: #6b4e3d;
+  --brown-dark: #4a3728;
+  --cream: #f5f1eb;
+  --text: #3a3a3a;
+  --text-light: #6b6b6b;
+  --border: #d4cfc7;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background-color: var(--cream);
+}
+
+a {
+  color: var(--brown);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--sage);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Navigation ===== */
+.site-nav {
+  background-color: var(--brown-dark);
+  padding: 0.6rem 1rem;
+}
+
+.nav-inner {
+  max-width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.site-name {
+  color: var(--sage-pale);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.site-name:hover {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--tan-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #fff;
+}
+
+/* ===== Banner ===== */
+.site-banner {
+  background-color: var(--sage);
+  /* Replace with a landscape photo: background-image: url('/images/banner.jpg'); */
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.banner-overlay {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.site-banner h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.site-banner .subtitle {
+  color: var(--sage-pale);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* ===== Main Content ===== */
+main {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* ===== Homepage ===== */
+.intro {
+  margin-bottom: 2rem;
+}
+
+.intro p {
+  margin-bottom: 1rem;
+}
+
+.location-lists h2 {
+  font-size: 1.4rem;
+  color: var(--brown-dark);
+  border-bottom: 2px solid var(--sage-light);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.location-list {
+  list-style: none;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.location-list li {
+  padding: 0.15rem 0;
+  break-inside: avoid;
+}
+
+.location-list a {
+  color: var(--brown);
+  font-weight: bold;
+}
+
+.location-list .not-visited {
+  color: var(--text-light);
+}
+
+/* ===== Page Content ===== */
+.page-content {
+  margin-bottom: 2rem;
+}
+
+.page-content h1 {
+  font-size: 1.8rem;
+  color: var(--brown-dark);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--sage-light);
+  padding-bottom: 0.3rem;
+}
+
+.page-content h2 {
+  font-size: 1.3rem;
+  color: var(--brown);
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+}
+
+.page-content ul, .page-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-content li {
+  margin-bottom: 0.3rem;
+}
+
+/* ===== Location Pages ===== */
+.location-page h1 {
+  font-size: 1.8rem;
+  color: var(--brown-dark);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--sage-light);
+  padding-bottom: 0.3rem;
+}
+
+.location-page h2 {
+  font-size: 1.3rem;
+  color: var(--brown);
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.location-page p {
+  margin-bottom: 1rem;
+}
+
+.statistics table {
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.statistics th,
+.statistics td {
+  padding: 0.4rem 1rem 0.4rem 0;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.statistics th {
+  color: var(--text-light);
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.placeholder-notice {
+  color: var(--text-light);
+  font-style: italic;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--sage-pale);
+  border-left: 3px solid var(--sage);
+}
+
+/* ===== Blog ===== */
+.blog-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-entry h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.blog-entry time,
+.post-header time {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-header h1 {
+  font-size: 1.8rem;
+  color: var(--brown-dark);
+  border-bottom: 2px solid var(--sage-light);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+/* ===== Inspiration / Images ===== */
+.location-page img {
+  margin: 0.5rem 0 1rem;
+  border: 1px solid var(--border);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  .location-list {
+    columns: 1;
+  }
+
+  .site-banner {
+    padding: 2rem 1rem;
+  }
+
+  .site-banner h1 {
+    font-size: 1.5rem;
+  }
+}
