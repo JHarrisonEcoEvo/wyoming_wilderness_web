@@ -8,30 +8,43 @@ elevation_range: "6,580–7,986"
 draft: false
 ---
 
-Bennett Mountain is a sprawling massif overlooking Seminoe Reservoir. The landscape transitions between desert and plains with granite cliffs, limestone fins covered in mountain mahogany, cottonwood groves, and small streams. Spring visitors encounter diverse wildlife including sandhill cranes, nutcrackers, various butterfly species, crossbills, spruce grouse, and mule deer. A great WSA for nature lovers.
+Bennett Mountain is a low, sprawling massif standing guard over Seminoe Reservoir. The North Platte River has been backed up to make this reservoir and it can be a good spot to fish or ice skate. The area abuts the Red Desert and has the feeling of in-betweenness—part desert, part plains and mountains.
+
+The mountain is traversed by steep declivities, with granite cliffs and outcrops cutting down into a thin limestone and sandstone layer that peeks out of the south side of the mountain. These limestone fins are pretty cool to explore, steep and covered in mountain mahogany.
+
+In the valleys, you can find small streams and cottonwood groves. These groves might seem dead still and lifeless at midday, but if you arrive at 9 a.m. on a spring day, there will be flowers underfoot and bird song in the ear.
+
+In March, we observed sandhill cranes wing over; a Clark's nutcracker banging its head into a limber pine cone while a woodpecker banged its head into the trunk; red admiral, mourning cloak, and pine elfin butterflies; a foraging flock of crossbills; a spruce grouse puffing out its red air sacs; even an unidentified owl! Mule deer huffed at our tent in the early dusk. This is a great WSA for nature lovers.
+
+## News
+
+Folks are discussing the creation of a water battery just outside the boundary of the WSA as of 2026. Read about it on WyoFile here.
 
 ## Infrastructure
 
-No designated trails exist. Cattle trails traverse the main ridge and valleys but require bushwhacking. Horseback travel along ridge routes is feasible.
+None. No designated trails. You will find cattle trails along the main ridge and down into most valleys. Those trails will require some bushwacking. If you are horseback, then riding up the road and then along the ridge might not be bad.
 
 ## Access
 
-**Primary route:** From the Miracle Mile area, access via Kortes Road to Bennett Mountain Road, then south via Gulch #1 or #2. Sedan parking possible near cottonwood grove; rougher terrain beyond.
+Find the Miracle Mile (famed fishing river reach) on a map and look south of the river near the mountain. You will see the Kortes road which shortly leads to Bennett Mountain road. You can take the first offshoot south off Bennett Mountain road. This goes up the rather boringly named Gulch #1 for a minute then gets on the ridge between Gulch #1 and, you guessed it, Gulch #2. Hiking up Gulch #2 is nice or hiking up the road to the ridge also works. You can get a sedan a bit past the cottonwood grove, but it would be better to park in the grove. It gets a bit rougher not too much farther on and you would want some clearance.
 
-**Alternate route:** East approach via Sailor's Benchmark road.
+You could also reach the WSA from the east by heading out towards Sailor's Benchmark on Bennett Mountain road and taking the road up towards the benchmark.
 
-**Water access:** Paddling across Seminoe or the Platte River is possible, though wind conditions warrant caution.
+Finally, you could paddle across Seminoe or the Platte to get to the WSA. This would be fun, but be wary about flat water paddling out there when the wind is up.
 
 ## Safety
 
-Notable hazards include lightning exposure when hiking on the ridge, abundant spring ticks, potential mountain lions (signs not observed), and cattle-contaminated water sources.
+Keep an eye out for lightning exposure when hiking on the ridge. There are a lot of ticks in the spring. I didn't see sign of lions, but it seems like they ought to be there. Water can be found in the valleys but it will be soiled by cattle.
 
 ## Flora and Fauna
 
-Vegetation ranges from cactus and mahogany (south aspects) to limber pine, juniper, and sage (ridge/north aspects). Spring wildflowers include shooting stars.
+From cactus and mahogany on the south aspects to limber pine, juniper and sage on the ridge and on more northerly aspects, the area has a diversity of vegetation. Along the ridge there was a surprising number of shooting stars; indeed the earth will match the night sky during the Perseids if you time your visit right.
 
 ## Inspiration
 
+If you don't want to drink this then carry your own water
+
+{{< gallery >}}
 ![Bennett Mountain landscape](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0755-1.jpg)
 
 ![Bennett Mountain view](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0758.jpg)
@@ -43,3 +56,4 @@ Vegetation ranges from cactus and mahogany (south aspects) to limber pine, junip
 ![Bennett Mountain ridge](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0756.jpg)
 
 ![Bennett Mountain cliffs](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0778-2.jpg)
+{{< /gallery >}}

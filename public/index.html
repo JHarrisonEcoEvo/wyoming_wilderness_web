@@ -1,19 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="generator" content="Hugo 0.160.1"><script src="/wyoming_wilderness_web/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=wyoming_wilderness_web/livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <title>Wyoming Wilderness Web</title>
+  <meta name="description" content="Information about designated wilderness areas and wilderness study areas in Wyoming">
+  <link rel="stylesheet" href="/wyoming_wilderness_web/css/style.css">
 </head>
 <body>
-  {{ partial "nav.html" . }}
-  {{ partial "header.html" . }}
+  <nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="site-name">&#127758; Wyoming Wilderness Web</a>
+    <ul class="nav-links">
+      
+        <li>[ <a href="/wyoming_wilderness_web/">Home</a> ]</li>
+      
+        <li>[ <a href="/wyoming_wilderness_web/about/">About</a> ]</li>
+      
+        <li>[ <a href="/wyoming_wilderness_web/blog/">Blog</a> ]</li>
+      
+    </ul>
+  </div>
+</nav>
+
+  
+<header class="site-banner">
+  <div class="banner-overlay">
+    <h1>*** Wyoming Wilderness Web ***</h1>
+    <p class="subtitle">~ This website is current, it just looks like it is from 1996 ~</p>
+  </div>
+</header>,, 
+
+<hr>
+
   <main>
-    {{ block "main" . }}{{ end }}
+    
+<div class="homepage-content">
+  <section class="intro">
+    <p>tbd</p>
+
+  </section>
+
+  <section class="location-lists">
+    <h2>Wilderness Study Areas</h2>
+    <ul class="location-list">
+      
+        <li>
+          
+            <a href="/wyoming_wilderness_web/wsa/bennett-mountain/">Bennett Mountain WSA</a>
+          
+        </li>
+      
+        <li>
+          
+            <a href="/wyoming_wilderness_web/wsa/devils-playground/">Devil&#39;s Playground WSA</a>
+          
+        </li>
+      
+    </ul>
+
+    <h2>Designated Wilderness Areas</h2>
+    <ul class="location-list">
+      
+    </ul>
+  </section>
+</div>
+
   </main>
-  {{ partial "footer.html" . }}
+  <hr>
+<footer class="site-footer">
+  <p>&copy; 2026 Wyoming Wilderness Web &mdash; All Rights Reserved</p>
+  <p class="footer-disclaimer">
+    Best viewed in Netscape Navigator 2.0 at 800&times;600 resolution &bull;
+    This page is <blink>under construction</blink>
+  </p>
+  <p class="footer-disclaimer">You are visitor #<strong>000314</strong></p>
+</footer>
+
 <script>
 (function () {
   document.querySelectorAll('.photo-gallery').forEach(function (gallery) {
@@ -24,7 +88,7 @@
 
     var current = 0;
 
-    // Build slide elements
+    
     var slides = imgs.map(function (img, i) {
       var slide = document.createElement('div');
       slide.className = 'gallery-slide' + (i === 0 ? ' active' : '');
@@ -35,12 +99,12 @@
       return slide;
     });
 
-    // Caption bar
+    
     var caption = document.createElement('div');
     caption.className = 'gallery-caption';
     caption.textContent = imgs[0].alt || '';
 
-    // Controls
+    
     var controls = document.createElement('div');
     controls.className = 'gallery-controls';
 
@@ -71,7 +135,7 @@
     prev.onclick = function () { goTo(current - 1); };
     next.onclick = function () { goTo(current + 1); };
 
-    // Rebuild gallery DOM
+    
     gallery.innerHTML = '';
     slides.forEach(function (s) { gallery.appendChild(s); });
     gallery.appendChild(caption);

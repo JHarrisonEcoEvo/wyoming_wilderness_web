@@ -8,26 +8,39 @@ elevation_range: "6,190–7,837"
 draft: false
 ---
 
-If a mountain of badlands with biblically old junipers trips your trigger than Devil's Playground may be your favorite WSA. The area appears larger when explored than from roadside views. The badlands reveal extensive formations during hiking. Notable geological features include amazing rocks, particularly tiger chert deposits favored by indigenous peoples for tool-making. This chert type occurs exclusively in this region yet has been found throughout the West, suggesting extensive trade networks. The adjacent Pine Springs Archaeological site shows human occupation spanning approximately 10,000 years, with abundant chert debitage visible — artifacts that should remain undisturbed for future research.
+If a mountain of badlands with biblically old junipers trips your trigger than Devil's Playground may be your favorite WSA. It looks big from the highway, but it is bigger than it looks. As you hike up the thing, the badlands will be revealed as more extensive than they seemed from your car seat.
+
+Look closely at the ground. Rockhounds will think they shed their mortal bodies and flew off to where the good rocks go when they die. The rocks are amazing, even for people that don't like rocks. This area is near tiger chert deposits, which was favored by native peoples for various tools. Tiger chert only occurs in this region of the world, yet artifacts have been found throughout the West. So, it must have been widely traded, or just carried around on long rambles.
+
+Adjacent to the WSA is the Pine Springs Archaeological site. This area shows signs of human use going back about 10,000 years (link to the pub here). It is a good spot, you have water and a view and lots of chert to work. You may see a lot of broken chert near the site that appears to be debitage—a fancy word for the refuse (lithic debris) associated with working stone into tools. Of course, you should not take this stuff home as some future archaeologist might learn something interesting from it.
 
 ## Infrastructure
 
-None. No designated trails. Scattered old jeep tracks exist throughout the area, including one featuring an abandoned toilet set away from main routes — representing the region's only notable debris.
+None. No designated trails. There are scattered old jeep tracks you can follow if you want—one track has a shot-up toilet just set off to the side. This was way out in the WSA, so have fun looking for it. (The WSA is quite clean other than this Anthropocene erratic).
 
 ## Access
 
-Located west of Flaming Gorge Reservoir. Highway 530 running south from Green River provides access. Jeep tracks lead eastward toward the WSA. Roads become impassable when wet. High-clearance vehicles recommended for direct WSA boundary access, though medium-clearance vehicles can reach within several miles. Pine Springs Archaeological site accessible via rough roads requiring some clearance.
+Find the Flaming Gorge Reservoir on a map and look west of the gorge. You can get to Devil's Playground and the neighboring Twin Buttes WSA from Highway 530, which runs south out of Green River. Just look for jeep tracks off that road towards the WSA to approach from the east. The roads out to the WSA are impassable when wet (I really mean it!).
+
+To get right to the WSA boundary takes high-clearance the way I went, but medium clearance would get you within a few miles–and a pleasant walk it would be to go the rest of the way. You can also drive to Pine Springs Archaeological site with some clearance, though I have only walked part of that road, not driven it.
 
 ## Safety
 
-Available water "looked like leftover milk from a bowl of fruit loops" and appears undrinkable. Badlands soil becomes slippery and treacherous when wet, adhering strongly to vehicles. Hazards include rattlesnakes, lightning, and heat exposure.
+The little bit of water I saw looked like leftover milk from a bowl of fruit loops. I doubt drinking those minerals would be tasty, but if you are into self-experimentation, knock yourself out.
+
+The badlands soil is pretty slippery and treacherous if has water in its grasp. It sticks to a rig like cement; don't try to drive or walk in it.
+
+Rattlesnakes. Lightning. Heat.
 
 ## Flora and Fauna
 
-Utah juniper groves on Black Mountain slopes represent some of the most impressive specimens. Midget faded rattlesnakes inhabit the area, becoming active in April. These snakes shed skin repeatedly in favored locations and possess potent venom — handling discouraged.
+Truly fantastic Utah juniper trees can be found here. This is my favorite tree species and I have seen a lot of them. I can't think of more impressive groves than those on the slopes of Black Mountain. It is worth a trip and a hike for the trees.
+
+There is a midget faded rattlesnake in the area. Not much is known about this critter, but it starts slithering around in April. Game and Fish says it sheds its skin in the same spot fairly often, so maybe you will find a rattlesnake changing room if you get lucky. The venom is supposed to have more potency than some related rattlers, so leave the snake handling for church.
 
 ## Inspiration
 
+{{< gallery >}}
 ![Devil's Playground badlands](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/04/img_0847.jpg)
 
 ![Devil's Playground formations](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/04/img_0869.jpg)
@@ -39,3 +52,4 @@ Utah juniper groves on Black Mountain slopes represent some of the most impressi
 ![Devil's Playground junipers](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/04/img_0971-1.jpg)
 
 ![Devil's Playground chert](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/04/img_20260404_094919935_hdr.jpg)
+{{< /gallery >}}

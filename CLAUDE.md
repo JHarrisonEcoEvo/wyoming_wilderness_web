@@ -1,39 +1,35 @@
-# Instructions: Build Wyoming Wilderness Web as a Hugo site
+# Wyoming Wilderness Web — Claude Instructions
 
-## Overview
+## What this site is
 
-I'm migrating my WordPress site (https://wyomingwildernessweb.wordpress.com/) to Hugo, hosted on GitHub Pages. It's a simple site about Wyoming's designated Wilderness areas and Wilderness Study Areas (WSAs). Please scaffold the full Hugo project.
+A personal field guide to Wyoming's designated Wilderness areas and Wilderness Study Areas (WSAs), built with Hugo and hosted on GitHub Pages. The author has personally visited some of these areas and written up field notes. It is not a corporate site, not a travel blog, and not a government resource — it's one person's experience in the backcountry.
+
+## Tech stack
+
+- **Hugo** (static site generator, no external theme — all templates are in `layouts/`)
+- **GitHub Pages** deployment via `.github/workflows/deploy.yml`
+- **Plain CSS** in `static/css/style.css` — no frameworks, no preprocessors
+- **Vanilla JS only** — small inline scripts are fine, no frameworks
+- Current branch `retro-1995` has a 1990s-era visual style
 
 ## Site structure
 
-The site has these sections:
+| Section | Path | Template |
+|---|---|---|
+| Homepage | `content/_index.md` | `layouts/index.html` |
+| WSA pages | `content/wsa/*.md` | `layouts/wsa/single.html` |
+| Wilderness pages | `content/wilderness/*.md` | `layouts/wilderness/single.html` |
+| Blog | `content/blog/*.md` | `layouts/blog/` |
+| About | `content/about/_index.md` | `layouts/_default/single.html` |
 
-1. **Homepage** — intro text about the project, then two lists: WSAs (45 of them) and Wilderness areas (15). Each list item links to its page if `visited: true` in frontmatter, otherwise it's plain text. The homepage prose from the current WordPress site should be migrated over.
-2. **WSA pages** (e.g., `/wsa/bennett-mountain/`) — individual location pages with these sections: a prose description, Infrastructure, Access, Safety, Flora and fauna, Statistics (acreage, elevation range), and an Inspiration section for photos. Use a shared template.
-3. **Wilderness pages** (e.g., `/wilderness/bridger/`) — same template structure as WSA pages.
-4. **Blog** (`/blog/`) — simple blog listing page with posts in reverse chronological order. Individual posts are just markdown with a date and title.
-5. **About page** (`/about/`)
+## Location page conventions
 
-## Content to migrate
-
-Pull content from the live WordPress site for these existing pages:
-- Homepage (https://wyomingwildernessweb.wordpress.com/)
-- About (https://wyomingwildernessweb.wordpress.com/about/)
-- Bennett Mountain WSA (https://wyomingwildernessweb.wordpress.com/bennett-mountain-wsa/)
-- Devil's Playground WSA (https://wyomingwildernessweb.wordpress.com/devils-playground-wsa/)
-- Blog posts from https://wyomingwildernessweb.wordpress.com/blog/
-
-For all WSAs and Wilderness areas that don't have pages yet, create placeholder markdown files with `visited: false` in the frontmatter and no body content. The full list of WSAs and Wilderness areas is on the homepage.
-
-## Location page frontmatter
-
-Each WSA/Wilderness markdown file should have frontmatter like:
-
+Frontmatter for a visited page:
 ```yaml
 ---
 title: "Bennett Mountain WSA"
-type: wsa  # or "wilderness"
-visited: true  # false for placeholder pages
+type: wsa        # or "wilderness"
+visited: true
 acreage: 6003
 acreage_km2: 24.29
 elevation_range: "6,580–7,986"
@@ -41,43 +37,58 @@ draft: false
 ---
 ```
 
-For placeholder (not-yet-visited) pages, just include title, type, visited: false, and draft: true.
+Frontmatter for a placeholder (not yet visited):
+```yaml
+---
+title: "Some Place WSA"
+type: wsa
+visited: false
+draft: true
+---
+```
 
-## Design and styling
+Placeholder pages render a notice automatically — no body content needed.
 
-- Clean, simple design. Not flashy. Think old-school web but readable. Earth tones — sage greens, warm tans, muted browns. Nothing corporate.
-- The header image from the WordPress site is a landscape photo used as a banner. Replicate that concept.
-- Good typography for long-form reading (the location descriptions are prose-heavy).
-- Mobile responsive but don't overthink it.
-- No JavaScript frameworks. Plain CSS. Keep it lightweight and fast.
-- Navigation: Home, About, Blog in the top nav. Keep it minimal.
+## Photo galleries
 
-## Hugo specifics
+Photos in the Inspiration section use the `{{< gallery >}}` shortcode (defined in `layouts/shortcodes/gallery.html`). Wrap images like this:
 
-- Use Hugo's built-in features, no external theme. Build the templates from scratch so they're simple and I can understand and edit them.
-- Use Hugo archetypes for WSA and Wilderness content types so I can run `hugo new wsa/some-place.md` and get the right frontmatter template.
-- The homepage should auto-generate the WSA and Wilderness lists from the content files, sorted alphabetically. Link them if visited: true, plain text if not.
-- Set up a `hugo.toml` config file with sensible defaults.
-- Put images in `static/images/` for now. Reference the WordPress image URLs in the migrated content as placeholders — I'll download and replace them later.
+```
+## Inspiration
 
-## GitHub Pages deployment
+{{< gallery >}}
+![alt text](url)
 
-- Include a `.github/workflows/deploy.yml` GitHub Actions workflow that builds the Hugo site and deploys to GitHub Pages on push to `main`.
-- Include a README.md explaining how to:
-  - Install Hugo locally
-  - Run the dev server (`hugo server`)
-  - Add a new location page
-  - Add a new blog post
-  - How the GitHub Pages deploy works
+![alt text](url)
+{{< /gallery >}}
+```
 
-## Repository setup
+The shortcode + inline JS in `baseof.html` builds a click-through slideshow automatically.
 
-Initialize this as a git repo. The repo name will be `wyoming-wilderness-web`.
+## Adding content
 
-## What NOT to do
+**New WSA or Wilderness page:**
+```
+hugo new wsa/place-name.md
+# or
+hugo new wilderness/place-name.md
+```
 
-- Don't use a pre-built Hugo theme. Build templates from scratch.
-- Don't add any CMS, admin panel, or dynamic backend.
-- Don't add analytics, tracking, or cookie banners.
-- Don't add comments functionality.
-- Don't over-engineer the CSS. Simple is better.
+**New blog post:**
+```
+hugo new blog/post-title.md
+```
+
+**Dev server:**
+```
+hugo server
+```
+
+## Rules — do not break these
+
+- **Do not edit the author's writing.** The prose in content files is the author's own field notes and voice. Do not rephrase, clean up, summarize, or alter it in any way. If text needs to go somewhere, place it exactly as given.
+- **Do not remove, reorder, or alter photos.** Image references in content files are the author's own photos. Do not change `src`, `alt` text, order, or quantity unless explicitly asked.
+- **Do not add content the author hasn't written.** Do not invent descriptions, add placeholder prose, or fill in details for unvisited locations beyond the placeholder notice already in the template.
+- **Do not use a pre-built Hugo theme.** All templates are custom and intentionally simple.
+- **Do not add analytics, tracking, cookie banners, comments, or any dynamic backend.**
+- **Do not over-engineer the CSS.** Simple is better. The retro-1995 branch intentionally looks old.
