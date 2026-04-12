@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/wyoming_wilderness_web/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=wyoming_wilderness_web/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wilderness Study Areas | Wyoming Wilderness Web</title>
+  <meta name="description" content="Information about designated wilderness areas and wilderness study areas in Wyoming">
+  <link rel="stylesheet" href="/wyoming_wilderness_web/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="site-name">&#127758; Wyoming Wilderness Web</a>
+    <ul class="nav-links">
+      
+        <li>[ <a href="/wyoming_wilderness_web/">Home</a> ]</li>
+      
+        <li>[ <a href="/wyoming_wilderness_web/about/">About</a> ]</li>
+      
+        <li>[ <a href="/wyoming_wilderness_web/blog/">Blog</a> ]</li>
+      
+    </ul>
+  </div>
+</nav>
+
+  
+<hr>
+
+  <main>
+    
+<div class="page-content">
+  <h1>Wilderness Study Areas</h1>
+  
+  
+    <div class="list-item">
+      <h2><a href="/wyoming_wilderness_web/wsa/bennett-mountain/">Bennett Mountain WSA</a></h2>
+      <p><p>Bennett Mountain is a low, sprawling massif standing guard over Seminoe Reservoir. The North Platte River has been backed up to make this reservoir and it can be a good spot to fish or ice skate. The area abuts the Red Desert and has the feeling of in-betweenness—part desert, part plains and mountains.</p>
+<p>The mountain is traversed by steep declivities, with granite cliffs and outcrops cutting down into a thin limestone and sandstone layer that peeks out of the south side of the mountain. These limestone fins are pretty cool to explore, steep and covered in mountain mahogany.</p></p>
+    </div>
+  
+    <div class="list-item">
+      <h2><a href="/wyoming_wilderness_web/wsa/devils-playground/">Devil&#39;s Playground WSA</a></h2>
+      <p><p>If a mountain of badlands with biblically old junipers trips your trigger than Devil&rsquo;s Playground may be your favorite WSA. It looks big from the highway, but it is bigger than it looks. As you hike up the thing, the badlands will be revealed as more extensive than they seemed from your car seat.</p>
+<p>Look closely at the ground. Rockhounds will think they shed their mortal bodies and flew off to where the good rocks go when they die. The rocks are amazing, even for people that don&rsquo;t like rocks. This area is near tiger chert deposits, which was favored by native peoples for various tools. Tiger chert only occurs in this region of the world, yet artifacts have been found throughout the West. So, it must have been widely traded, or just carried around on long rambles.</p></p>
+    </div>
+  
+</div>
+
+  </main>
+  <hr>
+<footer class="site-footer">
+  <p>&copy; 2026 Wyoming Wilderness Web &mdash; All Rights Reserved</p>
+  <p class="footer-disclaimer">
+    Best viewed in Netscape Navigator 2.0 at 800&times;600 resolution &bull;
+    This page is <blink>under construction</blink>
+  </p>
+  <p class="footer-disclaimer">You are visitor #<strong>000314</strong></p>
+</footer>
+
+<script>
+(function () {
+  document.querySelectorAll('.photo-gallery').forEach(function (gallery) {
+    var source = gallery.querySelector('.gallery-source');
+    if (!source) return;
+    var imgs = Array.from(source.querySelectorAll('img'));
+    if (imgs.length === 0) return;
+
+    var current = 0;
+
+    
+    var slides = imgs.map(function (img, i) {
+      var slide = document.createElement('div');
+      slide.className = 'gallery-slide' + (i === 0 ? ' active' : '');
+      var newImg = document.createElement('img');
+      newImg.src = img.src;
+      newImg.alt = img.alt;
+      slide.appendChild(newImg);
+      return slide;
+    });
+
+    
+    var caption = document.createElement('div');
+    caption.className = 'gallery-caption';
+    caption.textContent = imgs[0].alt || '';
+
+    
+    var controls = document.createElement('div');
+    controls.className = 'gallery-controls';
+
+    var prev = document.createElement('button');
+    prev.className = 'gallery-btn gallery-prev';
+    prev.innerHTML = '&#9664; Prev';
+
+    var counter = document.createElement('span');
+    counter.className = 'gallery-counter';
+    counter.textContent = '1 / ' + imgs.length;
+
+    var next = document.createElement('button');
+    next.className = 'gallery-btn gallery-next';
+    next.innerHTML = 'Next &#9654;';
+
+    controls.appendChild(prev);
+    controls.appendChild(counter);
+    controls.appendChild(next);
+
+    function goTo(n) {
+      slides[current].classList.remove('active');
+      current = (n + imgs.length) % imgs.length;
+      slides[current].classList.add('active');
+      counter.textContent = (current + 1) + ' / ' + imgs.length;
+      caption.textContent = imgs[current].alt || '';
+    }
+
+    prev.onclick = function () { goTo(current - 1); };
+    next.onclick = function () { goTo(current + 1); };
+
+    
+    gallery.innerHTML = '';
+    slides.forEach(function (s) { gallery.appendChild(s); });
+    gallery.appendChild(caption);
+    gallery.appendChild(controls);
+  });
+}());
+</script>
+</body>
+</html>
