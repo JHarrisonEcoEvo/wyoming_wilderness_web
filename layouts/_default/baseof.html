@@ -8,6 +8,7 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="{{ "css/modern.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/retro.css" | relURL }}">
+  {{ block "extrahead" . }}{{ end }}
 </head>
 <body>
   {{ partial "nav.html" . }}

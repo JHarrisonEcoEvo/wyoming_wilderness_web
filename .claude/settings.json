@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_NLCS_WLD_WSA/MapServer/1/query?where=ADMIN_ST%3D'WY'&outFields=NLCS_NAME,WSA_RCMND,ADMIN_ST&returnGeometry=true&geometryPrecision=5&f=geojson\" -o /Users/joshharrison/builds/wyoming_wilderness_web/static/data/wy_wsa.geojson)",
+      "Bash(python3 -c ':*)",
+      "Bash(curl -s \"https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_NLCS_WLD_WSA/MapServer/0?f=json\")",
+      "Bash(curl -s \"https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_NLCS_WLD_WSA/MapServer/0/query?where=ADMIN_ST%3D'WY'&outFields=NLCS_NAME,ADMIN_ST&returnGeometry=true&geometryPrecision=5&f=geojson\" -o /Users/joshharrison/builds/wyoming_wilderness_web/static/data/wy_wilderness.geojson)",
+      "Bash(curl -s \"https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_NLCS_WLD_WSA/MapServer/0/query?where=1%3D1&outFields=NLCS_NAME,ADMIN_ST&returnGeometry=false&resultRecordCount=20&f=json\")",
+      "Bash(curl -s \"https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Wilderness_01/MapServer?f=json\")",
+      "Bash(python3 -c \" import sys,json data=json.load\\(sys.stdin\\) for l in data.get\\('layers',[]\\): print\\(l['id'], l['name']\\) \")"
+    ]
+  }
+}

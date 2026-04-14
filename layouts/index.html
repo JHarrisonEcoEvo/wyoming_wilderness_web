@@ -1,3 +1,7 @@
+{{ define "extrahead" }}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+{{ end }}
+
 {{ define "main" }}
 <div class="homepage-content">
   <section class="intro">
@@ -53,6 +57,8 @@
       </div>
     </div>
   </section>
+
+  <div id="wy-map"></div>
 </div>
 
 <script>
@@ -62,16 +68,29 @@ window.heroCoverData = [
   {{ end -}}
 ];
 
-(function() {
-  var wrappers = document.querySelectorAll('.location-menu-wrapper');
+// Page lookup: map GeoJSON name → site URL
+window.sitePages = {
+  wsa: [
+    {{ range where .Site.RegularPages "Type" "wsa" -}}
+    { "title": "{{ .Title }}", "url": "{{ .RelPermalink }}", "visited": {{ if .Params.visited }}true{{ else }}false{{ end }} },
+    {{ end -}}
+  ],
+  wilderness: [
+    {{ range where .Site.RegularPages "Type" "wilderness" -}}
+    { "title": "{{ .Title }}", "url": "{{ .RelPermalink }}", "visited": {{ if .Params.visited }}true{{ else }}false{{ end }} },
+    {{ end -}}
+  ]
+};
 
+(function() {
+  // Dropdown menus
+  var wrappers = document.querySelectorAll('.location-menu-wrapper');
   function closeAll() {
     wrappers.forEach(function(w) {
       w.classList.remove('open');
       w.querySelector('.location-menu-btn').setAttribute('aria-expanded', 'false');
     });
   }
-
   wrappers.forEach(function(wrapper) {
     var btn = wrapper.querySelector('.location-menu-btn');
     btn.addEventListener('click', function(e) {
@@ -84,11 +103,86 @@ window.heroCoverData = [
       }
     });
   });
-
   document.addEventListener('click', closeAll);
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeAll();
-  });
-})();
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeAll(); });
+
+  // Map
+  var cssLink = document.querySelector('link[rel="stylesheet"]');
+  var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';
+
+  var map = L.map('wy-map', { zoomControl: true }).setView([43.0, -107.5], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 18
+  }).addTo(map);
+
+  function normalizeName(name) {
+    return name.toLowerCase()
+      .replace(/\s+wsa$/, '')
+      .replace(/\s+wilderness study area$/, '')
+      .replace(/\s+wilderness$/, '')
+      .replace(/[^a-z0-9]/g, '');
+  }
+
+  function findPage(geoName, pages) {
+    var key = normalizeName(geoName);
+    for (var i = 0; i < pages.length; i++) {
+      if (normalizeName(pages[i].title) === key) return pages[i];
+    }
+    return null;
+  }
+
+  var visitedStyle    = { color: '#2a5016', weight: 1.5, fillColor: '#2a5016', fillOpacity: 0.35 };
+  var unvisitedStyle  = { color: '#6a6a6a', weight: 1,   fillColor: '#888888', fillOpacity: 0.18 };
+  var wildStyle       = { color: '#1a3a6a', weight: 1.5, fillColor: '#1a3a6a', fillOpacity: 0.25 };
+  var hoverStyle      = { fillOpacity: 0.6 };
+
+  function styleFor(page, isWilderness) {
+    if (isWilderness) return wildStyle;
+    return (page && page.visited) ? visitedStyle : unvisitedStyle;
+  }
+
+  function addLayer(geojsonPath, pages, isWilderness) {
+    fetch(geojsonPath)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        L.geoJSON(data, {
+          style: function(feature) {
+            var page = findPage(feature.properties.NLCS_NAME || feature.properties.WILDERNESSNAME, pages);
+            return styleFor(page, isWilderness);
+          },
+          onEachFeature: function(feature, layer) {
+            var name = feature.properties.NLCS_NAME || feature.properties.WILDERNESSNAME || 'Unknown';
+            var page = findPage(name, pages);
+            var baseStyle = styleFor(page, isWilderness);
+
+            layer.bindTooltip(name, { sticky: true, className: 'map-tooltip' });
+
+            layer.on('mouseover', function() {
+              layer.setStyle({ fillOpacity: baseStyle.fillOpacity + 0.3 });
+            });
+            layer.on('mouseout', function() {
+              layer.setStyle(baseStyle);
+            });
+            layer.on('click', function() {
+              if (page) {
+                window.location.href = page.url;
+              }
+            });
+            if (page) {
+              layer.getElement && layer.on('add', function() {
+                var el = layer.getElement ? layer.getElement() : null;
+                if (el) el.style.cursor = 'pointer';
+              });
+            }
+          }
+        }).addTo(map);
+      });
+  }
+
+  addLayer(sitePath + '/data/wy_wsa.geojson', window.sitePages.wsa, false);
+  addLayer(sitePath + '/data/wy_wilderness.geojson', window.sitePages.wilderness, true);
+}());
 </script>
 {{ end }}
