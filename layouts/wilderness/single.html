@@ -3,11 +3,8 @@
   <h1>{{ .Title }}</h1>
 
   {{ if .Params.visited }}
-    {{ .Content }}
-
     {{ if or .Params.acreage .Params.elevation_range }}
     <section class="statistics">
-      <h2>Statistics</h2>
       <table>
         {{ with .Params.acreage }}
         <tr>
@@ -24,6 +21,12 @@
       </table>
     </section>
     {{ end }}
+
+    {{ with .Params.cover }}
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="location-hero-img">
+    {{ end }}
+
+    {{ .Content }}
   {{ else }}
     <p class="placeholder-notice">This page is a placeholder. Content will be added after visiting this area.</p>
   {{ end }}

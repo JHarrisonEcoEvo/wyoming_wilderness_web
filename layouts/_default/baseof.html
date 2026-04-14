@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>if(localStorage.getItem('wyw-theme')==='retro')document.documentElement.classList.add('retro');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/modern.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/retro.css" | relURL }}">
 </head>
 <body>
   {{ partial "nav.html" . }}
@@ -16,15 +18,58 @@
   {{ partial "footer.html" . }}
 <script>
 (function () {
+  var cssLink = document.querySelector('link[rel="stylesheet"]');
+  var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';
+
+  // Hero cover image
+  if (window.heroCoverData && window.heroCoverData.length) {
+    var covers = window.heroCoverData.filter(function(c) { return c.url; });
+    if (covers.length) {
+      var pick = covers[Math.floor(Math.random() * covers.length)];
+      var banner = document.querySelector('.site-banner');
+      if (banner) {
+        banner.style.backgroundImage = 'url(' + pick.url + ')';
+        var credit = document.getElementById('hero-photo-credit');
+        var creditLink = document.getElementById('hero-photo-link');
+        if (credit && creditLink) {
+          creditLink.href = pick.link;
+          creditLink.textContent = pick.title;
+          credit.style.display = 'block';
+        }
+      }
+    }
+  }
+
+  // Theme toggle
+  var toggle = document.getElementById('theme-toggle');
+  if (toggle) {
+    if (document.documentElement.classList.contains('retro')) {
+      toggle.textContent = 'Go Modern';
+    }
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      var isRetro = document.documentElement.classList.toggle('retro');
+      localStorage.setItem('wyw-theme', isRetro ? 'retro' : 'modern');
+      toggle.textContent = isRetro ? 'Go Modern' : 'Go to the 1990s';
+    });
+  }
+
+  // Photo gallery
   document.querySelectorAll('.photo-gallery').forEach(function (gallery) {
     var source = gallery.querySelector('.gallery-source');
     if (!source) return;
     var imgs = Array.from(source.querySelectorAll('img'));
+    // Fix root-relative paths to include site base path
+    imgs.forEach(function(img) {
+      var src = img.getAttribute('src') || '';
+      if (src.charAt(0) === '/' && src.indexOf(sitePath + '/') !== 0) {
+        img.src = sitePath + src;
+      }
+    });
     if (imgs.length === 0) return;
 
     var current = 0;
 
-    // Build slide elements
     var slides = imgs.map(function (img, i) {
       var slide = document.createElement('div');
       slide.className = 'gallery-slide' + (i === 0 ? ' active' : '');
@@ -35,12 +80,10 @@
       return slide;
     });
 
-    // Caption bar
     var caption = document.createElement('div');
     caption.className = 'gallery-caption';
     caption.textContent = imgs[0].alt || '';
 
-    // Controls
     var controls = document.createElement('div');
     controls.className = 'gallery-controls';
 
@@ -71,7 +114,6 @@
     prev.onclick = function () { goTo(current - 1); };
     next.onclick = function () { goTo(current + 1); };
 
-    // Rebuild gallery DOM
     gallery.innerHTML = '';
     slides.forEach(function (s) { gallery.appendChild(s); });
     gallery.appendChild(caption);

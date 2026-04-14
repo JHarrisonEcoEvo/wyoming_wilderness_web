@@ -6,6 +6,7 @@ acreage: 6003
 acreage_km2: 24.29
 elevation_range: "6,580–7,986"
 draft: false
+cover: "images/wsa/bennett-mountain/img_0755-1.jpg"
 ---
 
 Bennett Mountain is a low, sprawling massif standing guard over Seminoe Reservoir. The North Platte River has been backed up to make this reservoir and it can be a good spot to fish or ice skate. The area abuts the Red Desert and has the feeling of in-betweenness—part desert, part plains and mountains.
@@ -18,11 +19,7 @@ In March, we observed sandhill cranes wing over; a Clark's nutcracker banging it
 
 ## News
 
-Folks are discussing the creation of a water battery just outside the boundary of the WSA as of 2026. Read about it on WyoFile here.
-
-## Infrastructure
-
-None. No designated trails. You will find cattle trails along the main ridge and down into most valleys. Those trails will require some bushwacking. If you are horseback, then riding up the road and then along the ridge might not be bad.
+Folks are discussing the creation of a water battery just outside the boundary of the WSA as of 2026. Read about it on [WyoFile](https://wyofile.com/proposed-reservoir-above-seminoe-could-threaten-world-class-fishery-state-and-anglers-say/) here. The project proponent's site is [here](https://www.seminoepumpedstorage.com/).
 
 ## Access
 
@@ -36,24 +33,22 @@ Finally, you could paddle across Seminoe or the Platte to get to the WSA. This w
 
 Keep an eye out for lightning exposure when hiking on the ridge. There are a lot of ticks in the spring. I didn't see sign of lions, but it seems like they ought to be there. Water can be found in the valleys but it will be soiled by cattle.
 
-## Flora and Fauna
+## Infrastructure
 
-From cactus and mahogany on the south aspects to limber pine, juniper and sage on the ridge and on more northerly aspects, the area has a diversity of vegetation. Along the ridge there was a surprising number of shooting stars; indeed the earth will match the night sky during the Perseids if you time your visit right.
+None. No designated trails. You will find cattle trails along the main ridge and down into most valleys. Those trails will require some bushwacking. If you are horseback, then riding up the road and then along the ridge might not be bad.
 
 ## Inspiration
 
 If you don't want to drink this then carry your own water
 
 {{< gallery >}}
-![Bennett Mountain landscape](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0755-1.jpg)
+![Bennett Mountain view](/images/wsa/bennett-mountain/img_0758.jpg)
 
-![Bennett Mountain view](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0758.jpg)
+![Bennett Mountain terrain](/images/wsa/bennett-mountain/img_0766.jpg)
 
-![Bennett Mountain terrain](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0766.jpg)
+![Bennett Mountain cottonwoods](/images/wsa/bennett-mountain/img_0736.jpg)
 
-![Bennett Mountain cottonwoods](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0736.jpg)
+![Bennett Mountain ridge](/images/wsa/bennett-mountain/img_0756.jpg)
 
-![Bennett Mountain ridge](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0756.jpg)
-
-![Bennett Mountain cliffs](https://wyomingwildernessweb.wordpress.com/wp-content/uploads/2026/03/img_0778-2.jpg)
+![Bennett Mountain cliffs](/images/wsa/bennett-mountain/img_0778-2.jpg)
 {{< /gallery >}}

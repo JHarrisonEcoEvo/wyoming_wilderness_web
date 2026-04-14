@@ -5,31 +5,43 @@
   </section>
 
   <section class="location-lists">
-    <h2>Wilderness Study Areas</h2>
-    <ul class="location-list">
-      {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
-        <li>
-          {{ if eq .Params.visited true }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ else }}
-            <span class="not-visited">{{ .Title }}</span>
-          {{ end }}
-        </li>
-      {{ end }}
-    </ul>
+    <div class="location-group">
+      <h2>Wilderness Study Areas</h2>
+      <ul class="location-list">
+        {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
+          <li>
+            {{ if eq .Params.visited true }}
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ else }}
+              <span class="not-visited">{{ .Title }}</span>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
 
-    <h2>Designated Wilderness Areas</h2>
-    <ul class="location-list">
-      {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
-        <li>
-          {{ if eq .Params.visited true }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ else }}
-            <span class="not-visited">{{ .Title }}</span>
-          {{ end }}
-        </li>
-      {{ end }}
-    </ul>
+    <div class="location-group">
+      <h2>Designated Wilderness Areas</h2>
+      <ul class="location-list">
+        {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
+          <li>
+            {{ if eq .Params.visited true }}
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ else }}
+              <span class="not-visited">{{ .Title }}</span>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
   </section>
 </div>
+
+<script>
+window.heroCoverData = [
+  {{ range where .Site.RegularPages "Params.cover" "ne" nil -}}
+  { "url": "{{ .Params.cover | relURL }}", "title": "{{ .Title }}", "link": "{{ .RelPermalink }}" },
+  {{ end -}}
+];
+</script>
 {{ end }}

@@ -1,10 +1,11 @@
 <nav class="site-nav">
   <div class="nav-inner">
-    <a href="{{ "/" | relURL }}" class="site-name">&#127758; {{ .Site.Title }}</a>
+    <a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>
     <ul class="nav-links">
       {{ range .Site.Menus.main }}
-        <li>[ <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a> ]</li>
+        <li><a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
     </ul>
+    <a href="#" id="theme-toggle" class="theme-toggle">Go to the 1990s</a>
   </div>
 </nav>
