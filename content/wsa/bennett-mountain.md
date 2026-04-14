@@ -21,6 +21,8 @@ In March, we observed sandhill cranes wing over; a Clark's nutcracker banging it
 
 Folks are discussing the creation of a water battery just outside the boundary of the WSA as of 2026. Read about it on [WyoFile](https://wyofile.com/proposed-reservoir-above-seminoe-could-threaten-world-class-fishery-state-and-anglers-say/) here. The project proponent's site is [here](https://www.seminoepumpedstorage.com/).
 
+In 2018, the Wyoming Public Lands Initiative met with representatives from various counties in the state to figure out what to do with WSAs. Bennet Mountain (and a few other WSAs) are in Carbon County. These folks recommended that Bennett Mountain be designated a special management area — prohibiting energy development but allowing some motorized access — rather than full wilderness. The recommendation was used as part of the inspiration for Sen. Barasso's [bill](https://www.wyomingpublicmedia.org/natural-resources-energy/2021-06-21/barrasso-introduces-legislation-from-the-wyoming-public-lands-initiative) that moves WSAs into multiple use or Wilderness. Read the original piece in [Western Confluence](https://westernconfluence.org/what-to-do-with-wilderness-study-areas/). This bill has currently passed the Senate but I think it has not been heard in the house. Also see the WyoFile article [here](https://wyofile.com/barrasso-sponsored-wyo-wilderness-bill-gets-a-senate-hearing/)
+
 ## Access
 
 Find the Miracle Mile (famed fishing river reach) on a map and look south of the river near the mountain. You will see the Kortes road which shortly leads to Bennett Mountain road. You can take the first offshoot south off Bennett Mountain road. This goes up the rather boringly named Gulch #1 for a minute then gets on the ridge between Gulch #1 and, you guessed it, Gulch #2. Hiking up Gulch #2 is nice or hiking up the road to the ridge also works. You can get a sedan a bit past the cottonwood grove, but it would be better to park in the grove. It gets a bit rougher not too much farther on and you would want some clearance.
@@ -39,16 +41,14 @@ None. No designated trails. You will find cattle trails along the main ridge and
 
 ## Inspiration
 
-If you don't want to drink this then carry your own water
-
 {{< gallery >}}
-![Bennett Mountain view](/images/wsa/bennett-mountain/img_0758.jpg)
+![Fire in the sky over Seminoe](/images/wsa/bennett-mountain/img_0758.jpg)
 
-![Bennett Mountain terrain](/images/wsa/bennett-mountain/img_0766.jpg)
+![You will be drinking this if you don't carry water](/images/wsa/bennett-mountain/img_0766.jpg)
 
-![Bennett Mountain cottonwoods](/images/wsa/bennett-mountain/img_0736.jpg)
+![Excellent limber pines along the crest of the mountain](/images/wsa/bennett-mountain/img_0736.jpg)
 
-![Bennett Mountain ridge](/images/wsa/bennett-mountain/img_0756.jpg)
+![The view out towards the Pedros](/images/wsa/bennett-mountain/img_0756.jpg)
 
-![Bennett Mountain cliffs](/images/wsa/bennett-mountain/img_0778-2.jpg)
+![Limestone band on the south side of the WSA](/images/wsa/bennett-mountain/img_0778-2.jpg)
 {{< /gallery >}}
