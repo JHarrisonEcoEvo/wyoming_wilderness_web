@@ -2,5 +2,5 @@
 title: "McCullough Peaks WSA"
 type: wsa
 visited: false
-draft: true
+draft: false
 ---

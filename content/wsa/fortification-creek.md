@@ -2,5 +2,5 @@
 title: "Fortification Creek WSA"
 type: wsa
 visited: false
-draft: true
+draft: false
 ---

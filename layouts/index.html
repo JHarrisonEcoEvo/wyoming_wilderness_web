@@ -189,23 +189,18 @@ window.sitePages = {
 
             layer.bindTooltip(name, { sticky: true, className: 'map-tooltip' });
 
+            if (page && page.visited) {
+              layer.bindPopup('<strong><a href="' + page.url + '">' + name + '</a></strong><br><a href="' + page.url + '">Read my field notes →</a>', { className: 'map-popup' });
+            } else {
+              layer.bindPopup('<strong>' + name + '</strong><br><em>I haven\'t visited this one yet, coming soon!</em>', { className: 'map-popup' });
+            }
+
             layer.on('mouseover', function() {
               layer.setStyle({ fillOpacity: baseStyle.fillOpacity + 0.3 });
             });
             layer.on('mouseout', function() {
               layer.setStyle(baseStyle);
             });
-            layer.on('click', function() {
-              if (page) {
-                window.location.href = page.url;
-              }
-            });
-            if (page) {
-              layer.getElement && layer.on('add', function() {
-                var el = layer.getElement ? layer.getElement() : null;
-                if (el) el.style.cursor = 'pointer';
-              });
-            }
           }
         }).addTo(map);
       });
