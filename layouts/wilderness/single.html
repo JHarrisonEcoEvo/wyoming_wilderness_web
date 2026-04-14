@@ -2,26 +2,26 @@
 <article class="location-page">
   <h1>{{ .Title }}</h1>
 
-  {{ if .Params.visited }}
-    {{ if or .Params.acreage .Params.elevation_range }}
-    <section class="statistics">
-      <table>
-        {{ with .Params.acreage }}
-        <tr>
-          <th>Acreage</th>
-          <td>{{ . | lang.FormatNumber 0 }} acres{{ with $.Params.acreage_km2 }} ({{ . }} km²){{ end }}</td>
-        </tr>
-        {{ end }}
-        {{ with .Params.elevation_range }}
-        <tr>
-          <th>Elevation Range</th>
-          <td>{{ . }} ft</td>
-        </tr>
-        {{ end }}
-      </table>
-    </section>
-    {{ end }}
+  {{ if or .Params.acreage .Params.elevation_range }}
+  <section class="statistics">
+    <table>
+      {{ with .Params.acreage }}
+      <tr>
+        <th>Acreage</th>
+        <td>{{ . | lang.FormatNumber 0 }} acres{{ with $.Params.acreage_km2 }} ({{ . }} km²){{ end }}</td>
+      </tr>
+      {{ end }}
+      {{ with .Params.elevation_range }}
+      <tr>
+        <th>Elevation Range</th>
+        <td>{{ . }} ft</td>
+      </tr>
+      {{ end }}
+    </table>
+  </section>
+  {{ end }}
 
+  {{ if .Params.visited }}
     {{ with .Params.cover }}
     <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="location-hero-img">
     {{ end }}

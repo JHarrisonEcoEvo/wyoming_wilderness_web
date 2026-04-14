@@ -5,19 +5,19 @@ draft: false
 
 ## Learn more
 
-I like that Wilderness areas are remote and generally unpeopled. But, some of these areas may need a bit more visitation and love, else they be folded back into the multiple use mandate required of their encompassing landscapes. Multiple use means that extractive use on these lands would be a possibility. That is not always a bad thing (wood products are pretty nice, after all), but extractive use should always be well-considered to ensure the land and future generations don't have to foot the bill.
+WSAs were inventoried in the 80s and 90s, to be studied and either preserved as Wilderness, if merited, or folded back into the multiple use mandate of their encompassing land management agencies. Multiple use means everything from recreation to extractive industry is allowable—given proper management. This means mining or logging could be allowed—as they are on much of BLM or USFS managed land. Since their inventory, WSAs have been in limbo—functionally a Wilderness but not officially designated as such.
 
-Maybe every WSA doesn't need to be upgraded to a Wilderness, but at least some of them should be (e.g. Adobe Town WSA).
+There is much talk of moving WSAs out of this limbo and the Wyoming Senators are pushing legislation to do this. See here and here.
 
-This website is to inspire folks to visit these great lands and care about them.
+My personal opinion is that we don't have a whole lot of roadless, undeveloped land left so keeping 1% of our most beautiful lands set aside seems reasonable to me. These lands make for great hunting, fishing, and exploring, precisely because they are not covered in roads.
 
-If you find value in Wilderness let our legislaters know! It really does make a difference and it is not hard to shoot them an email or give a call. Addresses are below.
+Use this website to learn about these great lands and then go visit them! If you do, please contact our legislaters and let them know you value our public, wild lands.
 
-## A note on using this website
+## Calibrating your expectations
 
 I give a few safety tips, but you are on your own.
 
-I am really generous with what I think a sedan or medium clearance vehicle can get through. If I say you need high clearance you really do (unless road work happened).
+I am really generous with what I think a sedan or medium clearance vehicle can get through. If I say you need high clearance you really do (unless road work happened, since I visited).
 
 ## Wyoming Political Leader Contact Information
 
@@ -29,8 +29,8 @@ I am really generous with what I think a sedan or medium clearance vehicle can g
 - [Representative Hageman](https://hageman.house.gov/zip_authentication?form=/contact)
 - [Governor Gordon](https://governor.wyo.gov/contact/governor)
 
-## Resources
-
-A great [mapping project](https://wcca.wygisc.org/wpli/hub/index.html) showing WSAs in Wyoming.
+## Resources to learn more about Wyoming WSAs and Wilderness areas
 
 Erik Molvar's book *Wild Wyoming* has most (maybe all) wilderness and WSAs included and provides some hiking ideas for each.
+
+I will add resources pertinent to each WSA under its page.
