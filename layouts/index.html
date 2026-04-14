@@ -9,6 +9,9 @@
     {{ .Content }}
   </section>
 
+  <hr class="map-divider">
+  <h3 class="map-heading">Explore Wyoming's wild landscapes</h3>
+
   <section class="location-menus">
     <div class="location-menu-wrapper" id="menu-wsa">
       <button class="location-menu-btn" aria-haspopup="true" aria-expanded="false">
@@ -116,13 +119,36 @@ window.sitePages = {
     return;
   }
 
-  var map = L.map('wy-map', { zoomControl: true });
-  map.fitBounds([[40.8, -111.2], [45.2, -104.2]]);
+  var wyBounds = [[40.9, -111.1], [45.1, -104.0]];
+
+  var map = L.map('wy-map', {
+    zoomControl: true,
+    maxBounds: wyBounds,
+    maxBoundsViscosity: 1.0,
+    minZoom: 7
+  });
+  map.setView([42.95, -107.55], 7);
+
+  window.addEventListener('resize', function() {
+    map.invalidateSize();
+    map.setView([42.95, -107.55], 7);
+  });
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18
   }).addTo(map);
+
+  var legend = L.control({ position: 'topright' });
+  legend.onAdd = function() {
+    var div = L.DomUtil.create('div', 'map-legend');
+    var sw = 'display:inline-block;width:24px;height:15px;flex-shrink:0;border:2px solid ';
+    div.innerHTML =
+      '<div class="legend-row"><span style="' + sw + '#cc4400;background:rgba(255,102,0,0.55)"></span>Wilderness Study Area</div>' +
+      '<div class="legend-row"><span style="' + sw + '#0033aa;background:rgba(26,85,204,0.45)"></span>Wilderness Area</div>';
+    return div;
+  };
+  legend.addTo(map);
 
   function normalizeName(name) {
     return name.toLowerCase()
@@ -140,14 +166,11 @@ window.sitePages = {
     return null;
   }
 
-  var visitedStyle    = { color: '#2a5016', weight: 1.5, fillColor: '#2a5016', fillOpacity: 0.35 };
-  var unvisitedStyle  = { color: '#6a6a6a', weight: 1,   fillColor: '#888888', fillOpacity: 0.18 };
-  var wildStyle       = { color: '#1a3a6a', weight: 1.5, fillColor: '#1a3a6a', fillOpacity: 0.25 };
-  var hoverStyle      = { fillOpacity: 0.6 };
+  var wsaStyle  = { color: '#cc4400', weight: 1.5, fillColor: '#ff6600', fillOpacity: 0.45 };
+  var wildStyle = { color: '#0033aa', weight: 1.5, fillColor: '#1a55cc', fillOpacity: 0.35 };
 
   function styleFor(page, isWilderness) {
-    if (isWilderness) return wildStyle;
-    return (page && page.visited) ? visitedStyle : unvisitedStyle;
+    return isWilderness ? wildStyle : wsaStyle;
   }
 
   function addLayer(geojsonPath, pages, isWilderness) {
