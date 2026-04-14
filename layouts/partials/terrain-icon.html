@@ -1,0 +1,15 @@
+{{ $terrain := . }}
+{{ if eq $terrain "mountain" }}
+<svg class="terrain-icon terrain-mountain" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" aria-label="Mountain terrain">
+  <polygon points="10,1 19,13 1,13"/>
+</svg>
+{{ else if eq $terrain "desert" }}
+<svg class="terrain-icon terrain-desert" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" aria-label="Desert/badlands terrain">
+  <polygon points="1,13 5,5 8,5 8,3 12,3 12,5 15,5 19,13"/>
+</svg>
+{{ else if eq $terrain "prairie" }}
+<svg class="terrain-icon terrain-prairie" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" aria-label="Prairie terrain">
+  <rect x="1" y="10" width="18" height="3"/>
+  <path d="M1,10 Q5,6 10,10 Q15,6 19,10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>
+{{ end }}

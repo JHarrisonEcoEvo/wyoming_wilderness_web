@@ -7,6 +7,7 @@ acreage_km2: 64.94
 elevation_range: "6,190–7,837"
 draft: false
 cover: "images/wsa/devils-playground/img_0847.jpg"
+terrain: "desert"
 ---
 
 If a mountain of badlands with biblically old junipers trips your trigger than Devil's Playground may be your favorite WSA. It looks big from the highway, but it is bigger than it looks. As you hike up the thing, the badlands will be revealed as more extensive than they seemed from your car seat.

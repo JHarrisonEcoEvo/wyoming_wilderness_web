@@ -4,35 +4,53 @@
     {{ .Content }}
   </section>
 
-  <section class="location-lists">
-    <div class="location-group">
-      <h2>Wilderness Study Areas</h2>
-      <ul class="location-list">
-        {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
-          <li>
+  <section class="location-menus">
+    <div class="location-menu-wrapper" id="menu-wsa">
+      <button class="location-menu-btn" aria-haspopup="true" aria-expanded="false">
+        Wilderness Study Areas <span class="menu-arrow">▾</span>
+      </button>
+      <div class="location-menu-dropdown" role="menu">
+        <ul class="location-list">
+          {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
             {{ if eq .Params.visited true }}
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ else }}
-              <span class="not-visited">{{ .Title }}</span>
+            <li class="location-item location-visited">
+              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
+            </li>
             {{ end }}
-          </li>
-        {{ end }}
-      </ul>
+          {{ end }}
+          {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
+            {{ if ne .Params.visited true }}
+            <li class="location-item location-unvisited" role="menuitem">
+              {{ .Title }}
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
     </div>
 
-    <div class="location-group">
-      <h2>Designated Wilderness Areas</h2>
-      <ul class="location-list">
-        {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
-          <li>
+    <div class="location-menu-wrapper" id="menu-wilderness">
+      <button class="location-menu-btn" aria-haspopup="true" aria-expanded="false">
+        Designated Wilderness Areas <span class="menu-arrow">▾</span>
+      </button>
+      <div class="location-menu-dropdown" role="menu">
+        <ul class="location-list">
+          {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
             {{ if eq .Params.visited true }}
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ else }}
-              <span class="not-visited">{{ .Title }}</span>
+            <li class="location-item location-visited">
+              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
+            </li>
             {{ end }}
-          </li>
-        {{ end }}
-      </ul>
+          {{ end }}
+          {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
+            {{ if ne .Params.visited true }}
+            <li class="location-item location-unvisited" role="menuitem">
+              {{ .Title }}
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
     </div>
   </section>
 </div>
@@ -43,5 +61,34 @@ window.heroCoverData = [
   { "url": "{{ .Params.cover | relURL }}", "title": "{{ .Title }}", "link": "{{ .RelPermalink }}" },
   {{ end -}}
 ];
+
+(function() {
+  var wrappers = document.querySelectorAll('.location-menu-wrapper');
+
+  function closeAll() {
+    wrappers.forEach(function(w) {
+      w.classList.remove('open');
+      w.querySelector('.location-menu-btn').setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  wrappers.forEach(function(wrapper) {
+    var btn = wrapper.querySelector('.location-menu-btn');
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var isOpen = wrapper.classList.contains('open');
+      closeAll();
+      if (!isOpen) {
+        wrapper.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  document.addEventListener('click', closeAll);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeAll();
+  });
+})();
 </script>
 {{ end }}

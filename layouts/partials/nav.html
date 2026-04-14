@@ -1,6 +1,6 @@
 <nav class="site-nav">
   <div class="nav-inner">
-    <a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>
+    {{ if not .IsHome }}<a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>{{ end }}
     <ul class="nav-links">
       {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a></li>

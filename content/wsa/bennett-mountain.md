@@ -7,11 +7,12 @@ acreage_km2: 24.29
 elevation_range: "6,580–7,986"
 draft: false
 cover: "images/wsa/bennett-mountain/img_0755-1.jpg"
+terrain: "mountain"
 ---
 
 Bennett Mountain is a low, sprawling massif standing guard over Seminoe Reservoir. The North Platte River has been backed up to make this reservoir and it can be a good spot to fish or ice skate. The area abuts the Red Desert and has the feeling of in-betweenness—part desert, part plains and mountains.
 
-The mountain is traversed by steep declivities, with granite cliffs and outcrops cutting down into a thin limestone and sandstone layer that peeks out of the south side of the mountain. These limestone fins are pretty cool to explore, steep and covered in mountain mahogany.
+The mountain is traversed by steep declivities, with granite cliffs and outcrops cutting down into a thin limestone and sandstone layer that peeks out of the south side of the mountain. These lime stone fins are pretty cool to explore, steep and covered in mountain mahogany.
 
 In the valleys, you can find small streams and cottonwood groves. These groves might seem dead still and lifeless at midday, but if you arrive at 9 a.m. on a spring day, there will be flowers underfoot and bird song in the ear.
 
