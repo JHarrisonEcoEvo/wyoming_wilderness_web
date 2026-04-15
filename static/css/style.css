@@ -135,6 +135,7 @@ main {
 /* ===== Homepage ===== */
 .intro {
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .intro p {
