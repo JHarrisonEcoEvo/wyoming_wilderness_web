@@ -30,5 +30,8 @@ subtitle = "Information about designated wilderness areas and wilderness study a
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.typographer]
+        disable = false
     [markup.goldmark.renderer]
       unsafe = true
