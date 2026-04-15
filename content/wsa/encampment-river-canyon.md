@@ -20,7 +20,7 @@ Go to Odd Fellows Campground (or Encampment River Campground, depending on your 
 
 ## Safety
 
-Don't drown. Ticks are abundant in the springtime.
+Ticks are abundant in the springtime. If you float the river, strainers could be an issue. The river moves real fast during a good runoff year. It can be a serious float at high water, depending on where you put in.
 
 ## Infrastructure
 
