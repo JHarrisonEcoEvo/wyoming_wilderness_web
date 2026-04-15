@@ -20,7 +20,7 @@ Go to Odd Fellows Campground (or Encampment River Campground, depending on your 
 
 ## Safety
 
-Don't drown.
+Don't drown. Ticks are abundant in the springtime.
 
 ## Infrastructure
 

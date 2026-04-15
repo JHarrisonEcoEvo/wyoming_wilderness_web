@@ -14,7 +14,7 @@ If a mountain of badlands with biblically old junipers trips your trigger than D
 
 Look closely at the ground. Rockhounds will think they shed their mortal bodies and flew off to where the good rocks go when they die. The rocks are amazing, even for people that don't like rocks. This area is near tiger chert deposits, which was favored by native peoples for various tools. Tiger chert only occurs in this region of the world, yet artifacts have been found throughout the West. So, it must have been widely traded, or just carried around on long rambles.
 
-Adjacent to the WSA is the Pine Springs Archaeological site. This area shows signs of human use going back about 10,000 years (link to the pub here). It is a good spot, you have water and a view and lots of chert to work. You may see a lot of broken chert near the site that appears to be debitage—a fancy word for the refuse (lithic debris) associated with working stone into tools. Of course, you should not take this stuff home as some future archaeologist might learn something interesting from it.
+Adjacent to the WSA is the Pine Springs Archaeological site. This area shows signs of human use going back about 10,000 years (link to the pub [here](https://www.uwyo.edu/anthropology/_files/docs/Kelly/kelly-et-al-pine-spring-geoarchaeology-2006.pdf)). It is a good spot, there is water and a view and lots of chert to work. You may see a lot of broken chert near the site that appears to be debitage—a fancy word for the refuse (lithic debris) associated with working stone into tools. Of course, you should not take this stuff home as some future archaeologist might learn something interesting from it.
 
 ## Access
 
