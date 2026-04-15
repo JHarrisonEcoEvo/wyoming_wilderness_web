@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jharrisonEcoEvo.github.io/wyoming_wilderness_web/sitemap.xml
