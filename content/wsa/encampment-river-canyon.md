@@ -1,7 +1,7 @@
 ---
 title: "Encampment River Canyon WSA"
 type: wsa
-visited: false
+visited: true
 acreage: 4547
 acreage_km2: 18.4
 draft: false
@@ -31,7 +31,7 @@ The Encampment River Trail goes all the way up to the Hog Park area. It is a gre
 {{< gallery >}}
 ![Fall is a good time to be here.](/images/wsa/encampment-river-canyon/IMG_9015.jpg)
 
-![Obligatory aspen shot](/images/wsa/encampment-river-canyon/IMG_9015.jpg)
+![Obligatory aspen shot](/images/wsa/encampment-river-canyon/IMG_9012.jpg)
 
 ![Still waters near an old impoundment of some sort](/images/wsa/encampment-river-canyon/IMG_9026.jpg)
 
