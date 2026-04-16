@@ -11,6 +11,8 @@
   --accent: #2a5016;
   --accent-hover: #3d7020;
   --accent-light: #e5ede0;
+  --canyon: #c8611a;
+  --canyon-light: #f5ede5;
   --border: #e0ddd7;
   --hero-bg: #0d1d0d;
   --hero-text: #ede9e2;
@@ -238,8 +240,6 @@ main {
   max-width: 48rem;
   margin: 0 auto 3.5rem;
   text-align: center;
-  border-left: 3px solid rgba(0, 0, 0, 0.15);
-  padding-left: 1.5rem;
 }
 
 .intro p {
@@ -252,8 +252,33 @@ main {
 .location-menus {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem 3rem;
-  margin-bottom: 0.75rem;
+  gap: 1rem 0;
+  margin-bottom: 0;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 18px rgba(200, 97, 26, 0.4);
+}
+
+
+#menu-wsa {
+  padding-right: 2rem;
+}
+
+#menu-wsa::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, rgba(200, 97, 26, 0.6) 50%, transparent);
+  pointer-events: none;
+}
+
+#menu-wilderness {
+  padding-left: 2rem;
 }
 
 .location-menu-wrapper {
@@ -263,13 +288,13 @@ main {
 
 .location-menu-btn {
   font-family: inherit;
-  font-size: 0.8rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  color: var(--text-muted);
+  color: var(--heading);
   background: none;
   border: none;
   border-bottom: 1px solid var(--border);
-  padding: 0 0 0.5rem 0;
+  padding: 0.3rem 0 0.4rem;
   cursor: pointer;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -280,16 +305,19 @@ main {
   transition: color 0.15s;
 }
 
+#menu-wsa .location-menu-btn {
+  justify-content: flex-end;
+}
+
 .location-menu-btn:hover,
 .location-menu-wrapper.open .location-menu-btn {
-  color: var(--heading);
+  color: var(--canyon);
   background: none;
-  border-bottom-color: var(--border);
 }
 
 .menu-arrow {
-  font-size: 1.1rem !important;
-  color: var(--text-muted);
+  font-size: 1.9rem !important;
+  color: var(--canyon);
   transition: transform 0.15s;
   line-height: 1;
 }
@@ -383,7 +411,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   border: 1px solid var(--border);
   border-radius: 4px;
 }
@@ -404,7 +432,7 @@ main {
   gap: 10px;
 }
 
-.map-popup .leaflet-popup-content-wrapper {
+map-popup .leaflet-popup-content-wrapper {
   font-family: inherit;
   font-size: 0.85rem;
   border-radius: 4px;
