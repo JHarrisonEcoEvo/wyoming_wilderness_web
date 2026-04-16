@@ -59,6 +59,38 @@
     </div>
   </section>
 
+  <div class="retro-select-nav retro-only">
+    <div class="retro-select-group">
+      <label for="select-wsa"><b>Wilderness Study Areas:</b></label><br>
+      <select id="select-wsa">
+        <option value="">-- Select a WSA --</option>
+        {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
+          {{ if eq .Params.visited true }}
+        <option value="{{ .RelPermalink }}">* {{ .Title }}</option>
+          {{ else }}
+        <option value="" disabled>{{ .Title }}</option>
+          {{ end }}
+        {{ end }}
+      </select>
+      <button class="retro-go-btn" onclick="var s=document.getElementById('select-wsa');if(s.value)window.location=s.value;">Go!</button>
+    </div>
+    <div class="retro-select-group">
+      <label for="select-wilderness"><b>Designated Wilderness Areas:</b></label><br>
+      <select id="select-wilderness">
+        <option value="">-- Select a Wilderness --</option>
+        {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
+          {{ if eq .Params.visited true }}
+        <option value="{{ .RelPermalink }}">* {{ .Title }}</option>
+          {{ else }}
+        <option value="" disabled>{{ .Title }}</option>
+          {{ end }}
+        {{ end }}
+      </select>
+      <button class="retro-go-btn" onclick="var s=document.getElementById('select-wilderness');if(s.value)window.location=s.value;">Go!</button>
+    </div>
+    <p class="retro-select-note">* = visited</p>
+  </div>
+
   <div id="wy-map"></div>
 </div>
 
