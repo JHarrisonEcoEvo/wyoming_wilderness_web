@@ -4,6 +4,7 @@ type: wsa
 visited: true
 acreage: 4547
 acreage_km2: 18.4
+elevation_range: "7,252–8,547"
 draft: false
 cover: "images/wsa/encampment-river-canyon/IMG_9007.jpg"
 terrain: "forest"
