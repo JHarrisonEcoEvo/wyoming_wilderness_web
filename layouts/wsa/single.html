@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="location-layout">
 <article class="location-page">
   <h1>{{ .Title }}</h1>
 
@@ -31,4 +32,6 @@
     <p class="placeholder-notice">This page is a placeholder. Content will be added after visiting this area.</p>
   {{ end }}
 </article>
+{{ partial "location-sidebar.html" . }}
+</div>
 {{ end }}

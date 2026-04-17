@@ -1,0 +1,18 @@
+<aside class="location-sidebar">
+  <details class="sidebar-section" id="sidebar-wilderness">
+    <summary class="sidebar-heading">Wilderness Areas</summary>
+    <ul class="sidebar-list">
+      {{ range sort (where .Site.RegularPages "Section" "wilderness") "Title" }}
+      <li><a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="sidebar-current"{{ end }}>{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </details>
+  <details class="sidebar-section" id="sidebar-wsa">
+    <summary class="sidebar-heading">Wilderness Study Areas</summary>
+    <ul class="sidebar-list">
+      {{ range sort (where .Site.RegularPages "Section" "wsa") "Title" }}
+      <li><a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="sidebar-current"{{ end }}>{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </details>
+</aside>

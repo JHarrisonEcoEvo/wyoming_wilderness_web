@@ -9,10 +9,6 @@ subtitle = "Information about designated wilderness areas and wilderness study a
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 2
