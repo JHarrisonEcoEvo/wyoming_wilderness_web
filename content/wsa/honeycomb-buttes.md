@@ -5,7 +5,7 @@ visited: true
 acreage: 40548
 acreage_km2: 164.09
 elevation_range: "6,892–8,428"
-draft: true
+draft: false
 cover: "images/wsa/honeycomb-buttes/IMG_2548.jpg"
 terrain: "desert"
 ---
@@ -14,7 +14,7 @@ For the lover of badlands, this is a must visit location. Two tracks end at 200 
 
 While the colorful ground is the draw, the flowers out here in June are something to behold. You can hike around the perimeter of the WSA on faint two tracks, or ride a bike, flower peeping along the way. Inside the WSA proper there are no trails.
 
-I did a bike tour that went along the edge of this WSA in 2023 or so with my sister. It was one of the best bike rides I have had. The Red Desert is a premier location for bike touring, just don't try to go when the roads are wet.
+I did a bike tour that went along the edge of this WSA in 2023 or so with my sister. It was one of the best bike rides ever. The Red Desert is a premier location for bike touring, just don't try to go when the roads are wet. If you are a bikepacker, this is where you should go.
 
 For my money, this place beats the pants off Badlands National Park. It should be a massive recreational draw some day, given how stunning it is.
 
@@ -22,7 +22,9 @@ A good resource for the area has been compiled by Sweetwater County [here](https
 
 ## News
 
-There is a running fight about oil and gas development in this area. The 'Golden Triangle', which is the area between Farson, South Pass, and Big Sany Wyoming is one of a kind. It is the heart of sage grouse country, and the longest mule deer migration corridors course through it. There is quite a bit of oil and gas extraction in parts of the Red Desert, but this area is still pretty untouched. It really is a gem. 
+There is a running fight about oil and gas development in this area.
+
+The 'Golden Triangle', which is the area between Farson, South Pass, and Big Sandy Wyoming is one of a kind. It is the heart of sage grouse country. The longest mule deer migration corridors course through this portion of the Red Desert. There is quite a bit of oil and gas extraction in parts of the Red Desert, but this area is still pretty untouched. It really is a gem. 
 
 The BLM took leasing of these areas off the table in 2025, since we all didn't like it. But, the folks that just want a few short term dollars are always trying to get the drills cranking here again, so the fight is probably not over. Seems silly to mess up this area, when we will all be using nuclear power or renewables in a few decades anyway.
 
