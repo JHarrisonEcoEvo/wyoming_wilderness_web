@@ -7,10 +7,24 @@
   <section class="statistics">
     <table>
       {{ with .Params.acreage }}
+      {{ $pages := sort (where $.Site.RegularPages "Type" $.Type) "Params.acreage" "desc" }}
+      {{ $rank := 0 }}
+      {{ range $i, $p := $pages }}
+        {{ if eq $p.RelPermalink $.RelPermalink }}{{ $rank = add $i 1 }}{{ end }}
+      {{ end }}
+      {{ $sfx := "th" }}
+      {{ $m100 := mod $rank 100 }}{{ $m10 := mod $rank 10 }}
+      {{ if or (eq $m100 11) (eq $m100 12) (eq $m100 13) }}{{ $sfx = "th" }}{{ else if eq $m10 1 }}{{ $sfx = "st" }}{{ else if eq $m10 2 }}{{ $sfx = "nd" }}{{ else if eq $m10 3 }}{{ $sfx = "rd" }}{{ end }}
       <tr>
         <th>Acreage</th>
         <td>{{ . | lang.FormatNumber 0 }} acres{{ with $.Params.acreage_km2 }} ({{ . }} km²){{ end }}</td>
       </tr>
+      {{ if gt $rank 0 }}
+      <tr>
+        <th>Size Rank</th>
+        <td>{{ $rank }}{{ $sfx }} largest Wilderness in Wyoming</td>
+      </tr>
+      {{ end }}
       {{ end }}
       {{ with .Params.elevation_range }}
       <tr>
@@ -26,11 +40,9 @@
     {{ with .Params.cover }}
     <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="location-hero-img">
     {{ end }}
-
-    {{ .Content }}
-  {{ else }}
-    <p class="placeholder-notice">This page is a placeholder. Content will be added after visiting this area.</p>
   {{ end }}
+
+  {{ .Content }}
 </article>
 {{ partial "location-sidebar.html" . }}
 </div>
