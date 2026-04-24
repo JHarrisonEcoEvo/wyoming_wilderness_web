@@ -16,7 +16,7 @@ At any rate, I was hunkered down in a bush right near the xx trailhead collectin
 
 For this field site, I had two 50 meter tape measures laid out in a large cross, like big plus symbol. This functioned as a coordinate sysetem for me to randomly sample plants and precisely understand how close they were to each other. The bear kept coming right towards me, despite me yelling at it a number of times. It waddled right up to the transect tape and started chewing on it. At this point, I probably should have sprayed it, but instead I threw a stick at it and eventually chased it off. So, keep an eye out for the bears around here, not just the big brown ones.
 
-This Wilderness is smack west of the Tetons. As such, it is a bit more like a national park then some of the other Wildernesses in Wyoming. It gets quite a bit of access from the xx and xx trails. Despite the attention, you will, no doubt, find much smaller crowds than in the Teton park proper.
+This Wilderness is smack west of the Tetons. As such, it is a bit more like a national park than some of the other Wildernesses in Wyoming. It gets quite a bit of access from the xx and xx trails. Despite the attention, you will, no doubt, find much smaller crowds than in the Teton park proper.
 
 ## News
 

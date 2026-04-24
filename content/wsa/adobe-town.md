@@ -67,7 +67,7 @@ None. No designated trails.
 
 ![Out on the plains, near the rim, are erratics from historic erosion](/images/wsa/adobe-town/IMG_0593.jpg)
 
-![Concretions. Spheres of material that formed around some nucleus in the distant past.](/images/wsa/adobe-town/IMG_0607.jpg)
+![Concretions--spheres of material that formed around some nucleus in the distant past.](/images/wsa/adobe-town/IMG_0607.jpg)
 
 ![Sunsets are good out there](/images/wsa/adobe-town/IMG_0623.jpg)
 

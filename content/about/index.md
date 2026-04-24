@@ -17,7 +17,7 @@ In the past, we had no need for rare earth minerals and in the future we won't n
 
 But if we are talking dollar bills, I do think that, over time, Wilderness is one of Wyoming's most valuable assets. Tourism already makes up about 4.5% of our GDP. Folks don't visit for the wind. Keeping small wild places, like WSAs, scattered about the state will provide the value, over time, that small parks do in the city. They are magnets for outdoors folks. I typically travel about the state (and spend money) to visit the wild corners. That is why I have basically never vacationed in the eastern part of the state. They don't have hardly any public land to recreate on, so why visit? That is why I don't go down to Texas or visit the East Coast much either. I have spent enough time in cities in my life.
 
-I hope you use this website to learn about these great lands and then go visit them! If you do, please contact our legislaters at the Federal, State, and local level and let them know you value our public, wild lands.
+I hope you use this website to learn about these great lands and then go visit them! If you do, please contact our legislators at the Federal, State, and local level and let them know you value our public, wild lands.
 
 ## A word to the wise
 

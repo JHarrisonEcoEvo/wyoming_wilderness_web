@@ -10,7 +10,7 @@ cover: "images/wsa/devils-playground/img_0847.jpg"
 terrain: "desert"
 ---
 
-If a mountain of badlands with biblically old junipers trips your trigger than Devil's Playground may be your favorite WSA. It looks big from the highway, but it is bigger than it looks. As you hike up the thing, the badlands will be revealed as more extensive than they seemed from your car seat.
+If a mountain of badlands with biblically old junipers trips your trigger then Devil's Playground may be your favorite WSA. It looks big from the highway, but it is bigger than it looks. As you hike up the thing, the badlands will be revealed as more extensive than they seemed from your car seat.
 
 Look closely at the ground. Rockhounds will think they shed their mortal bodies and flew off to where the good rocks go when they die. The rocks are amazing, even for people that don't like rocks. This area is near tiger chert deposits, which was favored by native peoples for various tools. Tiger chert only occurs in this region of the world, yet artifacts have been found throughout the West. So, it must have been widely traded, or just carried around on long rambles.
 
