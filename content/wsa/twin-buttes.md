@@ -37,9 +37,9 @@ None. No designated trails. There is a two track that has been closed that wande
 ## Inspiration
 
 {{< gallery >}}
-![Twin Buttes from the bottom. It is steeper than it looks, though not too steep.](/images/wsa/twin-buttes/IMG_0890.jpg)
+![Twin Buttes from the bottom. It is steeper than it looks, though not too steep.](/images/wsa/twin-buttes/IMG_0984.jpg)
 
-![The WSA is mostly badlands.](/images/wsa/twin-buttes/IMG_0891.jpg)
+![The WSA is mostly badlands.](/images/wsa/twin-buttes/IMG_1011.jpg)
 
 ![Geological ephemera](/images/wsa/twin-buttes/IMG_1016.jpg)
 
