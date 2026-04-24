@@ -26,11 +26,9 @@
     {{ with .Params.cover }}
     <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="location-hero-img">
     {{ end }}
-
-    {{ .Content }}
-  {{ else }}
-    <p class="placeholder-notice">This page is a placeholder. Content will be added after visiting this area.</p>
   {{ end }}
+
+  {{ .Content }}
 </article>
 {{ partial "location-sidebar.html" . }}
 </div>
