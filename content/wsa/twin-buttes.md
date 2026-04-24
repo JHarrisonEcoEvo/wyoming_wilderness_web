@@ -4,7 +4,7 @@ type: wsa
 visited: true
 acreage: 8164
 acreage_km2: 33.04
-elevation_range: "6,500-7,037"
+elevation_range: "6,641-8,049"
 draft: false
 cover: "images/wsa/twin-buttes/IMG_0890.jpg"
 terrain: "desert"
