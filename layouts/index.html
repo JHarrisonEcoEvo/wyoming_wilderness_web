@@ -25,8 +25,8 @@
           {{ end }}
           {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
             {{ if ne .Params.visited true }}
-            <li class="location-item location-unvisited" role="menuitem">
-              {{ .Title }}
+            <li class="location-item location-unvisited">
+              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
             </li>
             {{ end }}
           {{ end }}
@@ -49,8 +49,8 @@
           {{ end }}
           {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
             {{ if ne .Params.visited true }}
-            <li class="location-item location-unvisited" role="menuitem">
-              {{ .Title }}
+            <li class="location-item location-unvisited">
+              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
             </li>
             {{ end }}
           {{ end }}
@@ -68,7 +68,7 @@
           {{ if eq .Params.visited true }}
         <option value="{{ .RelPermalink }}">* {{ .Title }}</option>
           {{ else }}
-        <option value="" disabled>{{ .Title }}</option>
+        <option value="{{ .RelPermalink }}">{{ .Title }}</option>
           {{ end }}
         {{ end }}
       </select>
@@ -82,7 +82,7 @@
           {{ if eq .Params.visited true }}
         <option value="{{ .RelPermalink }}">* {{ .Title }}</option>
           {{ else }}
-        <option value="" disabled>{{ .Title }}</option>
+        <option value="{{ .RelPermalink }}">{{ .Title }}</option>
           {{ end }}
         {{ end }}
       </select>
@@ -220,8 +220,10 @@ window.sitePages = {
 
             if (page && page.visited) {
               layer.bindPopup('<strong><a href="' + page.url + '">' + name + '</a></strong><br><a href="' + page.url + '">Read my field notes →</a>', { className: 'map-popup' });
+            } else if (page) {
+              layer.bindPopup('<strong><a href="' + page.url + '">' + name + '</a></strong><br><em>Not yet visited — <a href="' + page.url + '">resources here</a></em>', { className: 'map-popup' });
             } else {
-              layer.bindPopup('<strong>' + name + '</strong><br><em>I haven\'t visited this one yet, coming soon!</em>', { className: 'map-popup' });
+              layer.bindPopup('<strong>' + name + '</strong>', { className: 'map-popup' });
             }
 
             layer.on('mouseover', function() {

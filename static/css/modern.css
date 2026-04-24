@@ -356,8 +356,7 @@ main {
   border-bottom: none;
 }
 
-.location-item a,
-.location-item.location-unvisited {
+.location-item a {
   display: block;
   padding: 0.35rem 1rem;
   text-decoration: none;
@@ -375,10 +374,11 @@ main {
   color: var(--text);
 }
 
-.location-unvisited {
+.location-unvisited a {
   color: var(--text-muted);
   font-weight: 400;
-  cursor: default;
+  font-style: italic;
+  opacity: 0.75;
 }
 
 

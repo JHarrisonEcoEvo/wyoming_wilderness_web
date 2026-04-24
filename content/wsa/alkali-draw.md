@@ -6,3 +6,7 @@ acreage: 16990
 acreage_km2: 68.76
 draft: false
 ---
+
+I have not been to this WSA yet. For information check out this resource:
+
+- [BLM — Alkali Draw WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/alkali-draw-wsa) — official BLM page; area is about 25 miles north of Point of Rocks in the Red Desert

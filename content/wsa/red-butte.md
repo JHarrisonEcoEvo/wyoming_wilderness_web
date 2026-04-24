@@ -6,3 +6,7 @@ acreage: 11350
 acreage_km2: 45.93
 draft: false
 ---
+
+I have not been to this WSA yet. For information check out this resource:
+
+- [BLM — Red Butte WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/red-butte-wsa) — official BLM page; northern approach via State Hwy 30 to County Lane 42, then south on Dorsey Creek Road about 13 miles
