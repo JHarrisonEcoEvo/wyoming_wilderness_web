@@ -856,4 +856,51 @@ map-popup .leaflet-popup-content-wrapper {
   .post-header h1 {
     font-size: 1.8rem;
   }
+
+  /* ===== Mobile dropdown menus ===== */
+  .location-menus {
+    grid-template-columns: 1fr;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  #menu-wsa {
+    padding-right: 0;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.75rem;
+  }
+
+  #menu-wsa::after {
+    display: none;
+  }
+
+  #menu-wilderness {
+    padding-left: 0;
+  }
+
+  #menu-wsa .location-menu-btn {
+    justify-content: flex-start;
+  }
+
+  .location-menu-btn {
+    font-size: 1rem;
+    padding: 0.6rem 0;
+  }
+
+  .location-menu-dropdown {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    max-height: 40vh;
+    border-radius: 0;
+    box-shadow: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .location-item a {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.95rem;
+    white-space: normal;
+  }
 }
