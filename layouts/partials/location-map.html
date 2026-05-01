@@ -1,0 +1,106 @@
+{{- $geojsonPath := "/data/wy_wilderness.geojson" -}}
+{{- $nameKey := "WILDERNESSNAME" -}}
+{{- if eq .Type "wsa" -}}
+  {{- $geojsonPath = "/data/wy_wsa.geojson" -}}
+  {{- $nameKey = "NLCS_NAME" -}}
+{{- end -}}
+<script>
+(function() {
+  var pageTitle = "{{ .Title }}";
+  var geojsonPath = "{{ $geojsonPath }}";
+  var nameKey = "{{ $nameKey }}";
+  function normalizeName(name) {
+    name = (name || '').toLowerCase()
+      .replace(/\s+wsa$/, '')
+      .replace(/\s+wilderness study area$/, '')
+      .replace(/\s+wilderness$/, '');
+    var paren = name.match(/\(([^)]+)\)/);
+    if (paren) name = paren[1];
+    return name
+      .replace(/\bof\b|\bthe\b/g, '')
+      .replace(/[^a-z0-9]/g, '');
+  }
+
+  function namesMatch(a, b) {
+    if (a === b) return true;
+    var diff = Math.abs(a.length - b.length);
+    return diff <= 2 && (a.startsWith(b) || b.startsWith(a));
+  }
+
+  var pageKey = normalizeName(pageTitle);
+
+  function injectMap() {
+    var article = document.querySelector('.location-page');
+    if (!article) return;
+
+    var headings = Array.from(article.querySelectorAll('h2'));
+    var accessIdx = -1;
+    headings.forEach(function(h, i) {
+      if (h.textContent.trim() === 'Access') accessIdx = i;
+    });
+    if (accessIdx === -1) return;
+
+    var mapDiv = document.createElement('div');
+    mapDiv.className = 'location-map';
+
+    var nextHeading = headings[accessIdx + 1] || null;
+    if (nextHeading) {
+      article.insertBefore(mapDiv, nextHeading);
+    } else {
+      article.appendChild(mapDiv);
+    }
+
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        initMap(mapDiv);
+      });
+    });
+  }
+
+  function initMap(container) {
+    if (typeof L === 'undefined') return;
+
+    var map = L.map(container, {
+      zoomControl: false,
+      scrollWheelZoom: false,
+      dragging: true,
+      center: [43.0, -107.5],
+      zoom: 7
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 16
+    }).addTo(map);
+
+    var cssLink = document.querySelector('link[rel="stylesheet"]');
+    var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';
+
+    fetch(sitePath + geojsonPath)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var matched = data.features.filter(function(f) {
+          return namesMatch(normalizeName(f.properties[nameKey]), pageKey);
+        });
+
+        var manualBounds = {
+          'highlakes':     [[44.87, -109.70], [44.99, -109.43]],
+          'shoalcreek':    [[43.20, -110.55], [43.55, -110.12]],
+          'bighorntackon': [[44.97, -108.40], [45.13, -108.13]],
+          'palisades':     [[43.37, -111.25], [43.68, -110.75]],
+          'pryormountain': [[44.58, -108.55], [44.86, -108.22]]
+        };
+
+        if (!matched.length) {
+          if (manualBounds[pageKey]) map.fitBounds(manualBounds[pageKey], { padding: [24, 24] });
+          return;
+        }
+
+        var layer = L.geoJSON({ type: 'FeatureCollection', features: matched });
+        map.fitBounds(layer.getBounds(), { padding: [24, 24] });
+      });
+  }
+
+  document.addEventListener('DOMContentLoaded', injectMap);
+}());
+</script>

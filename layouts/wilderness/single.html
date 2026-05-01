@@ -1,3 +1,8 @@
+{{ define "extrahead" }}
+<link rel="stylesheet" href="{{ "css/leaflet.css" | relURL }}">
+<script src="{{ "js/leaflet.js" | relURL }}"></script>
+{{ end }}
+
 {{ define "main" }}
 <div class="location-layout">
 <article class="location-page">
@@ -45,5 +50,6 @@
   {{ .Content }}
 </article>
 {{ partial "location-sidebar.html" . }}
+{{ partial "location-map.html" . }}
 </div>
 {{ end }}

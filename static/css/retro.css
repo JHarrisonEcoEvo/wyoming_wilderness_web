@@ -692,6 +692,14 @@
   margin-top: 4px;
 }
 
+/* ===== Per-page location map ===== */
+.retro .location-map {
+  height: 280px;
+  border: 2px inset #808080;
+  border-radius: 0;
+  margin: 8px 0;
+}
+
 /* Show retro-only elements */
 .retro .retro-only {
   display: block;
