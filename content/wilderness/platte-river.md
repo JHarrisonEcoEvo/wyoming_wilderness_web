@@ -1,20 +1,20 @@
 ---
 title: "Platte River Wilderness"
 type: wilderness
-visited: true
+visited: false
 acreage: 24051
 acreage_km2: 97.33
 elevation_range: "7xxx"
-draft: true
+draft: false
 cover: "images/wilderness/platte_river/IMG_9007.jpg"
 terrain: "forest"
 ---
 
-
+In progress...
 
 ## News
 
-xxx
+In progress...
 
 ## Access
 
