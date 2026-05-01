@@ -3,6 +3,11 @@ title: "About"
 draft: false
 ---
 
+## Contact
+
+Drop me a line at wyomingwildernessweb@gmail.com
+I would love to hear your stories.
+
 ## Learn more
 
 WSAs were inventoried around 1980 as mandated by the Federal Land Policy and Management Act. The goal was to determine which landscapes had wilderness characteristics (largely untouched by humans, i.e. roadless and blissfully uninhabited). These lands were to be studied and either preserved as Wilderness, if merited, or folded back into the multiple use mandate of their encompassing land management agencies. Multiple use means everything from recreation to extractive industry is allowable—given proper management. This means mining or logging could be allowed—as they are on much of BLM or USFS managed land. In 1991, recommendations for all WSAs were sent up to Congress, but nothing has happened to most of them. Thus, since their inventory, WSAs have been in limbo—functionally a Wilderness but not officially designated as such.
@@ -38,3 +43,7 @@ I am really generous with what I think a low or medium clearance vehicle can get
 ## Resources to learn more about Wyoming WSAs and Wilderness areas
 
 Erik Molvar's book *Wild Wyoming* includes most (maybe all) Wilderness and WSAs in the state and provides some hiking ideas for each. It is like a way more thorough version of this website.
+
+The Wyoming Wilderness Association [website](https://www.wildwyo.org/maps) has some good info.
+
+The Geology of Wyoming website is quite fun ([link](https://www.geowyo.com/wyoming-wilderness-areas.html)).
