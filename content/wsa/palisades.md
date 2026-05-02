@@ -2,8 +2,8 @@
 title: "Palisades WSA"
 type: wsa
 visited: false
-acreage: 36722
-acreage_km2: 148.6
+acreage: 134417
+acreage_km2: 544.0
 draft: false
 ---
 
