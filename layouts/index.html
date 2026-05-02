@@ -250,16 +250,7 @@ window.sitePages = {
   addLayer(sitePath + '/data/wy_wsa.geojson', window.sitePages.wsa, false);
   addLayer(sitePath + '/data/wy_wilderness.geojson', window.sitePages.wilderness, true);
 
-  var wsaDotStyle = { radius: 6, color: '#cc4400', weight: 1.5, fillColor: '#ff6600', fillOpacity: 0.7 };
-  var wsaDotsNoPolygon = [
-    { lat: 44.93, lng: -109.56, title: 'High Lakes WSA', url: '/wsa/high-lakes/' }
-  ];
-  wsaDotsNoPolygon.forEach(function(d) {
-    var marker = L.circleMarker([d.lat, d.lng], wsaDotStyle);
-    marker.bindTooltip(d.title, { sticky: true, className: 'map-tooltip' });
-    marker.bindPopup('<strong><a href="' + sitePath + d.url + '">' + d.title + '</a></strong><br><em>No polygon available — <a href="' + sitePath + d.url + '">resources here</a></em>', { className: 'map-popup' });
-    marker.addTo(map);
-  });
+
 }());
 </script>
 {{ end }}

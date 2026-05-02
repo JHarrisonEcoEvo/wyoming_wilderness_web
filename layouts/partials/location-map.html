@@ -83,12 +83,7 @@
           return namesMatch(normalizeName(f.properties[nameKey]), pageKey);
         });
 
-        var manualBounds = {
-          'highlakes': [[44.87, -109.70], [44.99, -109.43]]
-        };
-
         if (!matched.length) {
-          if (manualBounds[pageKey]) map.fitBounds(manualBounds[pageKey], { padding: [24, 24] });
           return;
         }
 
