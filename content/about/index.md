@@ -26,7 +26,7 @@ I hope you use this website to learn about these great lands and then go visit t
 
 ## A word to the wise
 
-I give a few safety tips relevant for each area, but you are on your own. The biggest risk I see is getting stuck in these places because of automobile trouble. Likely not life-threatening, but it would be a pain in the ass, so plan accordingly.
+I give a few safety tips relevant for each area, but you are on your own. The most likely risk is getting stuck in these places because of automobile trouble. Likely not life-threatening, but it would be a pain in the ass, so plan accordingly.
 
 I am really generous with what I think a low or medium clearance vehicle can get through. If I say you need high clearance, then you really do (unless road work happened, since I visited).
 
