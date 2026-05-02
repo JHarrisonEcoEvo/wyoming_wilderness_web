@@ -2,8 +2,8 @@
 title: "South Pinnacles WSA"
 type: wsa
 visited: false
-acreage: 10800
-acreage_km2: 43.71
+acreage: 10823
+acreage_km2: 43.8
 draft: false
 ---
 

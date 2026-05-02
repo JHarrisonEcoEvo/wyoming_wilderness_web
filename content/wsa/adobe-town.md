@@ -2,8 +2,8 @@
 title: "Adobe Town WSA"
 type: wsa
 visited: true
-acreage: 85710
-acreage_km2: 346.7
+acreage: 88092
+acreage_km2: 356.5
 elevation_range: "6,500-7,037"
 draft: false
 cover: "images/wsa/adobe-town/IMG_0497.jpg"

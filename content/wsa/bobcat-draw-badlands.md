@@ -2,8 +2,8 @@
 title: "Bobcat Draw Badlands WSA"
 type: wsa
 visited: false
-acreage: 17150
-acreage_km2: 69.4
+acreage: 16897
+acreage_km2: 68.38
 draft: false
 ---
 

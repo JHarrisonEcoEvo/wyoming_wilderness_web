@@ -30,6 +30,8 @@ I give a few safety tips relevant for each area, but you are on your own. The bi
 
 I am really generous with what I think a low or medium clearance vehicle can get through. If I say you need high clearance, then you really do (unless road work happened, since I visited).
 
+All acreages were calculated using the GeoJSON polygons on the map. I have seen different numbers on the web for various WSAs, so just went with the polygon.
+
 ## Wyoming Political Leader Contact Information
 
 - [Wyoming Senators](https://www.wyoleg.gov/Legislators/2026/S)

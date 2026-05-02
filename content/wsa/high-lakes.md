@@ -2,8 +2,8 @@
 title: "High Lakes WSA"
 type: wsa
 visited: false
-acreage: 14700
-acreage_km2: 59.49
+acreage: 14659
+acreage_km2: 59.32
 draft: false
 ---
 

@@ -2,8 +2,8 @@
 title: "Honeycomb Buttes WSA"
 type: wsa
 visited: true
-acreage: 40548
-acreage_km2: 164.09
+acreage: 41882
+acreage_km2: 169.49
 elevation_range: "6,892–8,428"
 draft: false
 cover: "images/wsa/honeycomb-buttes/IMG_2548.jpg"

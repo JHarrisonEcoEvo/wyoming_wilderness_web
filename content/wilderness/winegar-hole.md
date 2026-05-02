@@ -2,8 +2,8 @@
 title: "Winegar Hole Wilderness"
 type: wilderness
 visited: false
-acreage: 10662
-acreage_km2: 43.15
+acreage: 10604
+acreage_km2: 42.91
 draft: false
 ---
 

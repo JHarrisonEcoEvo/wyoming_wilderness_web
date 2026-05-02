@@ -2,8 +2,8 @@
 title: "Red Butte WSA"
 type: wsa
 visited: false
-acreage: 11350
-acreage_km2: 45.93
+acreage: 10838
+acreage_km2: 43.86
 draft: false
 ---
 

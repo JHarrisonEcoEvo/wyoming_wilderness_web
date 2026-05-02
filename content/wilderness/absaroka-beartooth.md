@@ -2,8 +2,10 @@
 title: "Absaroka-Beartooth Wilderness"
 type: wilderness
 visited: false
-acreage: 23283
-acreage_km2: 94.22
+acreage: 25391
+acreage_km2: 102.75
+acreage_out_of_state: 909537
+acreage_out_of_state_name: Montana
 draft: false
 ---
 

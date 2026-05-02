@@ -2,8 +2,8 @@
 title: "Jedediah Smith Wilderness"
 type: wilderness
 visited: true
-acreage: 123896
-acreage_km2: 501.39
+acreage: 123205
+acreage_km2: 498.59
 elevation_range: "6,520-10,915"
 draft: false
 cover: "images/wilderness/jedediah-smith/IMG_1735.jpg"

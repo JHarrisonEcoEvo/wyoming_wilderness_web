@@ -2,8 +2,8 @@
 title: "Gros Ventre Wilderness"
 type: wilderness
 visited: true
-acreage: 317874
-acreage_km2: 1286.4
+acreage: 284626
+acreage_km2: 1151.84
 elevation_range: "6,300-11,720"
 draft: false
 cover: "images/wilderness/gros_ventre/IMG_6368.jpg"

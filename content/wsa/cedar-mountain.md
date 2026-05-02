@@ -2,8 +2,8 @@
 title: "Cedar Mountain WSA"
 type: wsa
 visited: false
-acreage: 21560
-acreage_km2: 87.25
+acreage: 20499
+acreage_km2: 82.96
 draft: false
 ---
 

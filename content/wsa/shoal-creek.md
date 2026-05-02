@@ -2,8 +2,8 @@
 title: "Shoal Creek WSA"
 type: wsa
 visited: false
-acreage: 32373
-acreage_km2: 130.99
+acreage: 32216
+acreage_km2: 130.37
 draft: false
 ---
 

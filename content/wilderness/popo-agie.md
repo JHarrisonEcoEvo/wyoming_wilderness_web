@@ -2,8 +2,8 @@
 title: "Popo Agie Wilderness"
 type: wilderness
 visited: false
-acreage: 102620
-acreage_km2: 415.29
+acreage: 102112
+acreage_km2: 413.23
 elevation_range: "8,400–13,255"
 draft: false
 ---

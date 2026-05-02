@@ -2,8 +2,8 @@
 title: "Bennett Mountain WSA"
 type: wsa
 visited: true
-acreage: 6003
-acreage_km2: 24.29
+acreage: 5822
+acreage_km2: 23.56
 elevation_range: "6,580–7,986"
 draft: false
 cover: "images/wsa/bennett-mountain/img_0755-1.jpg"

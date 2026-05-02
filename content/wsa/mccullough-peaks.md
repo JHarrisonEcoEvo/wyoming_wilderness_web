@@ -2,8 +2,8 @@
 title: "McCullough Peaks WSA"
 type: wsa
 visited: false
-acreage: 24570
-acreage_km2: 99.43
+acreage: 25083
+acreage_km2: 101.51
 draft: false
 ---
 

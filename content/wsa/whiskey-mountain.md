@@ -2,8 +2,8 @@
 title: "Whiskey Mountain WSA"
 type: wsa
 visited: false
-acreage: 487
-acreage_km2: 1.97
+acreage: 525
+acreage_km2: 2.12
 draft: false
 ---
 

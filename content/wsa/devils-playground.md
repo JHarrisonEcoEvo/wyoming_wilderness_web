@@ -2,8 +2,8 @@
 title: "Devil's Playground WSA"
 type: wsa
 visited: true
-acreage: 16046
-acreage_km2: 64.94
+acreage: 15976
+acreage_km2: 64.65
 elevation_range: "6,190–7,837"
 draft: false
 cover: "images/wsa/devils-playground/img_0847.jpg"

@@ -2,8 +2,8 @@
 title: "Alkali Draw WSA"
 type: wsa
 visited: false
-acreage: 16990
-acreage_km2: 68.76
+acreage: 18034
+acreage_km2: 72.98
 draft: false
 ---
 

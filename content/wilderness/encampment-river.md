@@ -2,8 +2,8 @@
 title: "Encampment River Wilderness"
 type: wilderness
 visited: true
-acreage: 10124
-acreage_km2: 40.97
+acreage: 10165
+acreage_km2: 41.14
 elevation_range: "7,438–9,348"
 draft: false
 cover: "/images/wilderness/encampment-river/IMG_0701.jpg"

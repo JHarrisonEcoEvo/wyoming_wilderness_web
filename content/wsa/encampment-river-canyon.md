@@ -2,8 +2,8 @@
 title: "Encampment River Canyon WSA"
 type: wsa
 visited: true
-acreage: 4547
-acreage_km2: 18.4
+acreage: 4541
+acreage_km2: 18.38
 elevation_range: "7,252–8,547"
 draft: false
 cover: "images/wsa/encampment-river-canyon/IMG_9007.jpg"

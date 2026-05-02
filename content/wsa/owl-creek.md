@@ -2,8 +2,8 @@
 title: "Owl Creek WSA"
 type: wsa
 visited: false
-acreage: 710
-acreage_km2: 2.87
+acreage: 705
+acreage_km2: 2.85
 elevation_range: "9,000–10,900"
 draft: false
 ---

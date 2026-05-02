@@ -2,8 +2,8 @@
 title: "Twin Buttes WSA"
 type: wsa
 visited: true
-acreage: 8164
-acreage_km2: 33.04
+acreage: 8125
+acreage_km2: 32.88
 elevation_range: "6,641-8,049"
 draft: false
 cover: "images/wsa/twin-buttes/IMG_0890.jpg"

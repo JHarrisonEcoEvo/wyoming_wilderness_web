@@ -2,8 +2,8 @@
 title: "Prospect Mountain WSA"
 type: wsa
 visited: false
-acreage: 1145
-acreage_km2: 4.63
+acreage: 1131
+acreage_km2: 4.58
 draft: false
 ---
 

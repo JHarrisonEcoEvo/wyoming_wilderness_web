@@ -13,7 +13,8 @@
       "Bash(curl -s \"https://overpass-api.de/api/interpreter\" --data 'data=[out:json];relation\\(6016014\\);out geom;')",
       "Bash(python3 -c ' *)",
       "WebFetch(domain:data.fs.usda.gov)",
-      "WebFetch(domain:www.congress.gov)"
+      "WebFetch(domain:www.congress.gov)",
+      "Bash(python3)"
     ]
   }
 }

@@ -2,8 +2,8 @@
 title: "Buffalo Hump WSA"
 type: wsa
 visited: false
-acreage: 10300
-acreage_km2: 41.68
+acreage: 9448
+acreage_km2: 38.23
 draft: false
 ---
 

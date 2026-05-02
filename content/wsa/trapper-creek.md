@@ -2,8 +2,8 @@
 title: "Trapper Creek WSA"
 type: wsa
 visited: false
-acreage: 7200
-acreage_km2: 29.14
+acreage: 7504
+acreage_km2: 30.37
 draft: false
 ---
 

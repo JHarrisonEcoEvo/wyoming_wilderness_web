@@ -2,8 +2,8 @@
 title: "Sand Dunes WSA"
 type: wsa
 visited: false
-acreage: 26309
-acreage_km2: 106.47
+acreage: 28226
+acreage_km2: 114.23
 draft: false
 ---
 

@@ -22,7 +22,7 @@
       {{ if or (eq $m100 11) (eq $m100 12) (eq $m100 13) }}{{ $sfx = "th" }}{{ else if eq $m10 1 }}{{ $sfx = "st" }}{{ else if eq $m10 2 }}{{ $sfx = "nd" }}{{ else if eq $m10 3 }}{{ $sfx = "rd" }}{{ end }}
       <tr>
         <th>Acreage</th>
-        <td>{{ . | lang.FormatNumber 0 }} acres{{ with $.Params.acreage_km2 }} ({{ . }} km²){{ end }}</td>
+        <td>{{ . | lang.FormatNumber 0 }} acres{{ with $.Params.acreage_km2 }} ({{ . }} km²){{ end }}{{ with $.Params.acreage_out_of_state }} — Wyoming portion only; {{ . | lang.FormatNumber 0 }} additional acres in {{ $.Params.acreage_out_of_state_name }}{{ end }}</td>
       </tr>
       {{ if gt $rank 0 }}
       <tr>

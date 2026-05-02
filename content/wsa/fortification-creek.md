@@ -2,8 +2,8 @@
 title: "Fortification Creek WSA"
 type: wsa
 visited: false
-acreage: 12419
-acreage_km2: 50.26
+acreage: 13111
+acreage_km2: 53.06
 draft: false
 ---
 

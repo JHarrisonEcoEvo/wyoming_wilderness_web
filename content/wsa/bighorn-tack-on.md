@@ -2,8 +2,10 @@
 title: "Bighorn Tack-On WSA"
 type: wsa
 visited: false
-acreage: 80
-acreage_km2: 0.32
+acreage: 211
+acreage_km2: 0.85
+acreage_out_of_state: 2583
+acreage_out_of_state_name: Montana
 draft: false
 ---
 

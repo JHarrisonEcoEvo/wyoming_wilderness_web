@@ -2,8 +2,8 @@
 title: "Lake Mountain WSA"
 type: wsa
 visited: false
-acreage: 13865
-acreage_km2: 56.11
+acreage: 13620
+acreage_km2: 55.12
 elevation_range: "7,400–9,600"
 draft: false
 ---

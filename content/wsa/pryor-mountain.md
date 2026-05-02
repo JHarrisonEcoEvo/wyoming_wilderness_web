@@ -2,8 +2,10 @@
 title: "Pryor Mountain WSA"
 type: wsa
 visited: false
-acreage: 4352
-acreage_km2: 17.61
+acreage: 3040
+acreage_km2: 12.3
+acreage_out_of_state: 12511
+acreage_out_of_state_name: Montana
 elevation_range: "3,780–8,480"
 draft: false
 ---

@@ -2,8 +2,8 @@
 title: "Copper Mountain WSA"
 type: wsa
 visited: false
-acreage: 6858
-acreage_km2: 27.75
+acreage: 6955
+acreage_km2: 28.15
 draft: false
 ---
 

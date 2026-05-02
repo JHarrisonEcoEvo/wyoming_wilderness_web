@@ -2,8 +2,8 @@
 title: "Fitzpatrick Wilderness"
 type: wilderness
 visited: false
-acreage: 198906
-acreage_km2: 804.94
+acreage: 197973
+acreage_km2: 801.17
 draft: false
 ---
 

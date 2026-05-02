@@ -2,8 +2,8 @@
 title: "Gardner Mountain WSA"
 type: wsa
 visited: false
-acreage: 6423
-acreage_km2: 25.99
+acreage: 6218
+acreage_km2: 25.16
 draft: false
 ---
 
