@@ -44,7 +44,7 @@ All acreages were calculated using the GeoJSON polygons on the map. I have seen 
 
 ## Resources to learn more about Wyoming WSAs and Wilderness areas
 
-Erik Molvar's book *Wild Wyoming* includes most (maybe all) Wilderness and WSAs in the state and provides some hiking ideas for each. It is like a way more thorough version of this website.
+Erik Molvar's book *Wild Wyoming* includes most (maybe all) Wilderness and WSAs in the state and provides some hiking ideas for each.
 
 The Wyoming Wilderness Association [website](https://www.wildwyo.org/maps) has some good info.
 
