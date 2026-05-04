@@ -9,7 +9,7 @@ acreage_out_of_state_name: Montana
 draft: false
 ---
 
-I have not been to this Wilderness yet. For information check out this resource:
+I have not been to this Wilderness yet. For information check out:
 
 - [Absaroka-Beartooth Wilderness — Shoshone NF (Wyoming portion)](https://www.fs.usda.gov/recarea/shoshone/recarea/?recid=26431) — USFS page for the Wyoming slice, with Clarks Fork and Sunlight Basin trailhead access
 - [AllTrails: Absaroka-Beartooth Wilderness trails](https://www.alltrails.com/parks/us/wyoming/absaroka-beartooth-wilderness) — route listings for the WY side including Clarks Fork of the Yellowstone approaches

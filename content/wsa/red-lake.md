@@ -7,6 +7,6 @@ acreage_km2: 38.59
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out this resource:
+Driven past this one. Access of County Road 21 is easy, even for low-clearance vehicles. For information check out:
 
 - [BLM — Red Lake WSA](https://www.blm.gov/Programs/National-Conservation-Lands/Wyoming/Red-Lake-WSA) — official BLM page; part of the Killpecker Sand Dunes complex in the Red Desert's Great Divide Basin

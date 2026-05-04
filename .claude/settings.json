@@ -15,6 +15,9 @@
       "WebFetch(domain:data.fs.usda.gov)",
       "WebFetch(domain:www.congress.gov)",
       "Bash(python3)"
+    ],
+    "additionalDirectories": [
+      "/Users/joshharrison/builds/wyoming_wilderness_web/content/wsa"
     ]
   }
 }

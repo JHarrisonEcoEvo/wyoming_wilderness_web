@@ -8,6 +8,6 @@ elevation_range: "9,000–10,900"
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out this resource:
+I have not been to this WSA yet. For information check out:
 
 - [BLM — Owl Creek WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/owl-creek-wsa) — official BLM page; three units on the ridge dividing Rock Creek and the South Fork of Owl Creek, adjacent to the Washakie Wilderness in Hot Springs County

@@ -7,7 +7,7 @@ acreage_km2: 1718.13
 draft: false
 ---
 
-I have not been to this Wilderness yet. For information check out this resource:
+Details from my time here are forthcoming. For information check out:
 
 - [Bridger Wilderness — Bridger-Teton NF](https://www.fs.usda.gov/recarea/btnf/recarea/?recid=74073) — USFS wilderness page with trailhead listings, permit requirements, and access roads
 - [AllTrails: Bridger Wilderness trails](https://www.alltrails.com/parks/us/wyoming/bridger-wilderness) — route listings from Big Sandy, Elkhart Park, Green River Lakes, and other main trailheads

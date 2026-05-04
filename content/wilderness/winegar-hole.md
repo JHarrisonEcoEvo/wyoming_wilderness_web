@@ -7,7 +7,7 @@ acreage_km2: 42.91
 draft: false
 ---
 
-I have not been to this Wilderness yet. For information check out this resource:
+I have not been to this Wilderness yet. For information check out:
 
 - [Winegar Hole Wilderness — Caribou-Targhee NF](https://www.fs.usda.gov/recarea/caribou-targhee/recarea/?recid=70460) — official wilderness page with overview and access info
 - [Grassy Lake Road / Ashton-Flagg Ranch Road trailhead info](https://www.fs.usda.gov/recarea/caribou-targhee/recreation/recarea/?recid=70460) — primary access corridor along the southern edge

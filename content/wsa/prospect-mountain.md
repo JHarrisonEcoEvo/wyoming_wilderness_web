@@ -7,7 +7,7 @@ acreage_km2: 4.58
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out this resource:
+I walked near but not on this WSA. Access requires medium-clearance last time I was out there. For information check out:
 
 - [BLM — Prospect Mountain WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/prospect-mountain-wsa) — official BLM page; access via Wyoming Hwy 230E from Riverside to Prospect Peak Road, then 5 miles to the boundary
 - [BLM — Prospect Mountain (visit page)](https://www.blm.gov/visit/prospect-mountain) — trip-planning info; the adjacent North Platte River offers good fishing nearby

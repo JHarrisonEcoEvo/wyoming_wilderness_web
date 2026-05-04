@@ -7,7 +7,7 @@ acreage_km2: 30.76
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out this resource:
+I have not been to this WSA yet. For information check out:
 
 - [BLM — Scab Creek WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/scab-creek-wsa) — official BLM page; accessed from Boulder via WY 353 and County Road 23-122 to the Scab Creek Recreation Area
 - [BLM — Scab Creek Recreation Area](https://www.blm.gov/visit/scab-creek-recreation-area) — the recreation area has a trailhead, campground, and corrals; two trails pass through the WSA and connect to the Bridger Wilderness trail system

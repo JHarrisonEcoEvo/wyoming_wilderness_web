@@ -8,6 +8,6 @@ elevation_range: "7,400–9,600"
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out this resource:
+I have not been to this WSA yet. For information check out:
 
 - [BLM — Lake Mountain WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/lake-mountain-wsa) — official BLM page.

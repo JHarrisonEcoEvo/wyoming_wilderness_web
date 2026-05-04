@@ -7,7 +7,7 @@ acreage_km2: 772.24
 draft: false
 ---
 
-I have not been to this Wilderness yet. For information check out this resource:
+I have not been to this Wilderness yet. For information check out:
 
 - [Cloud Peak Wilderness — Bighorn NF](https://www.fs.usda.gov/recarea/bighorn/recarea/?recid=75289) — USFS wilderness page with trailhead listings and access road info
 - [AllTrails: Cloud Peak Wilderness trails](https://www.alltrails.com/parks/us/wyoming/cloud-peak-wilderness) — routes from Hunter Corrals, Paintrock, and West Tensleep trailheads

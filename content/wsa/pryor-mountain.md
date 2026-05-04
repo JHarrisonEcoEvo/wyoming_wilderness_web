@@ -10,7 +10,7 @@ elevation_range: "3,780–8,480"
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out this resource:
+I have not been to this WSA yet. For information check out:
 
 - [BLM — Pryor Mountain WSA](https://www.blm.gov/Programs/National-Conservation-Lands/Wyoming/Pryor-Mountain/WSA) — official BLM page; the WSA spans the MT/WY line on the south-trending slopes of the Pryors; Montana access via Hwy 310 south of Bridger then Pryor Mountain Road
 - [BLM — Bighorn Tack-On WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/bighorn-tack-on-wsa) — the adjacent Bighorn Tack-On WSA and Bighorn Canyon NRA give geographic context for this corner of Wyoming/Montana
