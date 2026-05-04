@@ -41,7 +41,7 @@ Numerous miles of trails lay within this wilderness. Enjoy.
 ## Inspiration
 
 {{< gallery >}}
-![Taking it in](/images/wilderness/gros_ventre/IMG_6281.jpg)
+<!-- ![Taking it in](/images/wilderness/gros_ventre/IMG_6281.jpg) -->
 
 ![Moonscape somewhere near Pyramid Peak](/images/wilderness/gros_ventre/IMG_6338.jpg)
 
@@ -49,7 +49,7 @@ Numerous miles of trails lay within this wilderness. Enjoy.
 
 ![The Fish Creek Fire glowing at dusk.](/images/wilderness/gros_ventre/IMG_6353.jpg)
 
-![In hopes of water, we descended from the crest. Moth eyes reflected from the interstices of the rocks. Bears eat the moths in high-country talus.](/images/wilderness/gros_ventre/IMG_6355.jpg)
+<!-- ![In hopes of water, we descended from the crest. Moth eyes reflected from the interstices of the rocks. Bears eat the moths in high-country talus.](/images/wilderness/gros_ventre/IMG_6355.jpg) -->
 
 ![We were happy to find water.](/images/wilderness/gros_ventre/IMG_6356.jpg)
 
