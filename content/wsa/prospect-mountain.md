@@ -37,15 +37,15 @@ There is a trail in part of the WSA along the river.
 ## Inspiration
 
 {{< gallery >}}
-![Dotted blues in abundance.]("images/wsa/prospect/F60EC575-CC93-4F2D-B3CD-39ABCCAE15BA.JPG")
+![Dotted blues in abundance.](/images/wsa/prospect/F60EC575-CC93-4F2D-B3CD-39ABCCAE15BA.JPG)
 
-![Looking over the WSA on a fine, early summer day]("images/wsa/prospect/1215AA17-9A6E-46DE-A152-F27339938727.JPG")
+![Looking over the WSA on a fine, early summer day](/images/wsa/prospect/1215AA17-9A6E-46DE-A152-F27339938727.JPG)
 
-![Tiger swallowtail and a wild iris. Two of the showier creatures one is likely to encounter in the mountains.]("images/wsa/prospect/A2D16205-B35B-4484-95D3-A01DEE55D1A6.JPG")
+![Tiger swallowtail and a wild iris. Two of the showier creatures one is likely to encounter in the mountains.](/images/wsa/prospect/A2D16205-B35B-4484-95D3-A01DEE55D1A6.JPG)
 
-![Lewisia - who needs a stem or leaves when you have petals like this?]("images/wsa/prospect/E495D3AF-81B5-4286-BC1E-53E2495C402E.JPG")
+![Lewisia - who needs a stem or leaves when you have petals like this?](/images/wsa/prospect/E495D3AF-81B5-4286-BC1E-53E2495C402E.JPG)
 
 
-![Tiger swallowtail resting in the shade.]("images/wsa/prospect/F7D0ACF3-803A-48B0-A87D-E07B842CBF88.JPG")
+![Tiger swallowtail resting in the shade.](/images/wsa/prospect/F7D0ACF3-803A-48B0-A87D-E07B842CBF88.JPG)
 
 {{< /gallery >}}
