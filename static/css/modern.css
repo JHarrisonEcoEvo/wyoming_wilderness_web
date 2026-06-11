@@ -547,6 +547,10 @@ map-popup .leaflet-popup-content-wrapper {
   font-weight: 600;
 }
 
+.sidebar-list li a.sidebar-visited {
+  font-weight: 600;
+}
+
 @media (max-width: 860px) {
   .location-layout {
     grid-template-columns: 1fr;

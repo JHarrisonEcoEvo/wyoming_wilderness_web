@@ -3,7 +3,7 @@
     <summary class="sidebar-heading">Wilderness Areas</summary>
     <ul class="sidebar-list">
       {{ range sort (where .Site.RegularPages "Section" "wilderness") "Title" }}
-      <li><a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="sidebar-current"{{ end }}>{{ .Title }}</a></li>
+      <li><a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="sidebar-current"{{ else if .Params.visited }} class="sidebar-visited"{{ end }}>{{ .Title }}</a></li>
       {{ end }}
     </ul>
   </details>
@@ -11,7 +11,7 @@
     <summary class="sidebar-heading">Wilderness Study Areas</summary>
     <ul class="sidebar-list">
       {{ range sort (where .Site.RegularPages "Section" "wsa") "Title" }}
-      <li><a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="sidebar-current"{{ end }}>{{ .Title }}</a></li>
+      <li><a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="sidebar-current"{{ else if .Params.visited }} class="sidebar-visited"{{ end }}>{{ .Title }}</a></li>
       {{ end }}
     </ul>
   </details>
