@@ -17,7 +17,8 @@
       "Bash(python3)",
       "Bash(curl -s http://localhost:1313/wilderness/encampment-river/)",
       "Bash(npx playwright *)",
-      "Bash(osascript -e 'tell application \"Safari\" to open location \"http://localhost:1313/blog/black_ridge_wilderness/\"')"
+      "Bash(osascript -e 'tell application \"Safari\" to open location \"http://localhost:1313/blog/black_ridge_wilderness/\"')",
+      "Bash(curl -s http://localhost:1313/)"
     ],
     "additionalDirectories": [
       "/Users/joshharrison/builds/wyoming_wilderness_web/content/wsa"
