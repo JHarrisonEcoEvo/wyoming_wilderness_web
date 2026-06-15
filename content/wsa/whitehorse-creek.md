@@ -12,4 +12,4 @@ draft: false
 I have driven past this WSA, but not walked it. It is easy to get here from South Pass, Wyoming. Just take the Oregon Buttes road and start walking when you feel like it. Low-clearance cars can get here, when the road is dry.
 
 - [BLM — Whitehorse Creek WSA](https://www.blm.gov/Programs/National-Conservation-Lands/Wyoming/Whitehorse-Creek-WSA) — official BLM page; shared between Sweetwater and Fremont counties.
-- [BLM — Whitehorse Creek visit page](https://www.blm.gov/visit/whitehorse-creek-wsa) — t
+- [BLM — Whitehorse Creek visit page](https://www.blm.gov/visit/whitehorse-creek-wsa)

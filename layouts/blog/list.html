@@ -2,12 +2,21 @@
 <div class="page-content blog-list">
   <h1>Blog</h1>
   {{ .Content }}
-  {{ range .Pages.ByDate.Reverse }}
-    <article class="blog-entry">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-      {{ with .Summary }}<p>{{ . }}</p>{{ end }}
-    </article>
-  {{ end }}
+  <ul class="blog-list-entries">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ $page := . }}
+      <li class="blog-entry">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ $matches := findRE `!\[[^\]]*\]\(([^)]+)\)` .RawContent 1 }}
+        {{ with index $matches 0 }}
+          {{ $src := replaceRE `!\[[^\]]*\]\(([^)]+)\)` `$1` . }}
+          <a href="{{ $page.RelPermalink }}" class="blog-thumb">
+            <img src="{{ $src | relURL }}" alt="{{ $page.Title }}" loading="lazy">
+          </a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
 </div>
 {{ end }}

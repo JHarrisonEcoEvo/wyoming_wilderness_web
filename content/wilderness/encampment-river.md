@@ -22,7 +22,7 @@ Floating this river at high water is serious (Class V). If you are into creeking
 
 See the Encampment River Canyon WSA entry for news related to that WSA being folded into this Wilderness, if Barrasso's bill is passed.
 
-Sinclair Refinery uses some water out of here during dry years and it was a bit controversial locally. Water matters a lot in the West, so anything having to do with stirs the pot (Wyofile article [here](https://wyofile.com/sinclair-refinery-gets-ok-to-use-water-from-encampment-river/)).
+Sinclair Refinery uses some water out of here during dry years and it was a bit controversial locally. Water matters a lot in the West, so anything having to do with it stirs the pot (Wyofile article [here](https://wyofile.com/sinclair-refinery-gets-ok-to-use-water-from-encampment-river/)).
 
 ## Access
 
@@ -32,7 +32,7 @@ To access from the south, head to Hog Park Reservoir. Just east of the reservoir
 
 ## Safety
 
-Boating this entire river at high water is a serious endeavor. Plan accordingly. Cell service is nonexistant in the canyon and hiking up out of the canyon to get service would be very challenging.
+Boating this entire river at high water is a serious endeavor. Plan accordingly. Cell service is nonexistent in the canyon and hiking up out of the canyon to get service would be very challenging.
 
 Ticks are abundant in the springtime.
 

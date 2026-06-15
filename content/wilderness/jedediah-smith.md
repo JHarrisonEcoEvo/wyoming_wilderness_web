@@ -14,7 +14,7 @@ In 2018, I was studying plant-associated microbes and did some field work in thi
 
 At any rate, I was hunkered down in a bush right near the Teton Creek trailhead (if memory serves) collecting plant leaves at about 7 a.m. when I heard something rustling my way--a youngish black bear.
 
-For this field site, I had two 50 meter tape measures laid out in a large cross, like big plus symbol. This functioned as a coordinate system for me to randomly sample plants and precisely understand how close they were to each other. The bear kept coming right towards me, despite me yelling at it a number of times. It waddled right up to the transect tape and started chewing on it. At this point, I probably should have sprayed it, but instead I threw a stick at it and eventually chased it off. So, keep an eye out for the bears around here, not just the big brown ones.
+For this field site, I had two 50 meter tape measures laid out in a large cross, like a big plus symbol. This functioned as a coordinate system for me to randomly sample plants and precisely understand how close they were to each other. The bear kept coming right towards me, despite me yelling at it a number of times. It waddled right up to the transect tape and started chewing on it. At this point, I probably should have sprayed it, but instead I threw a stick at it and eventually chased it off. So, keep an eye out for the bears around here, not just the big brown ones.
 
 This Wilderness is smack west of the Tetons. As such, parts of it are heavily visited. Despite the attention, you will, no doubt, find much smaller crowds than in the Teton park proper.
 

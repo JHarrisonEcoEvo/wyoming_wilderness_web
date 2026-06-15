@@ -16,7 +16,7 @@ This is the biggest BLM WSA in the state (Palisades WSA on Forest Service land i
 
 There are two primary rims: Adobe Town Rim and Skull Creek Rim. The latter cuts northwards from the south edge of the WSA. From above, the WSA looks like a pie chart with a slice removed. The east edge of that slice is the Skull Creek Rim.
 
-At the bottom of the badlands, fossils stare at the sky. Titanotherium, a giant tapir, and brontotherium, a giant sloth have been found here. You are most likely to find bits of ancient turtles and crocodiles. It is truly amazing. Don't take anything.
+At the bottom of the badlands, fossils stare at the sky. Titanotherium, a giant tapir, and brontotherium, a giant sloth, have been found here. You are most likely to find bits of ancient turtles and crocodiles. It is truly amazing. Don't take anything.
 
 There are teepee rings in the area as well. You might think the native presence is why the WSA is called Adobe Town. But there are no adobe structures here, the name comes from the geological formation itself and its semblance to a lost, ruined city. Walter Granger, a paleontologist, named the formation in 1909. He wrote, "The bad lands at this part of the rim are known, because of their peculiar form of weathering, as 'Adobe Town.'"
 
@@ -28,7 +28,7 @@ Adobe Town is one of the most amazing places in the Western United States. The B
 
 Check out the Geology of Wyoming website for a ton of great info on this area [here](https://www.geowyo.com/adobe-town.html). As they say, 'These amazing high desert erosional features are possibly the last remaining truly wild badlands in the United States.'
 
-This [pdf](http://eqc.state.wy.us/orders/Rare%20or%20Uncommon%20Closed%20Cases/07-1101%20Adobe%20Town/Attachment%206.pdf) also has some great info on the the area.
+This [pdf](http://eqc.state.wy.us/orders/Rare%20or%20Uncommon%20Closed%20Cases/07-1101%20Adobe%20Town/Attachment%206.pdf) also has some great info on the area.
 
 ## News
 

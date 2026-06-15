@@ -308,6 +308,18 @@ main {
   margin-bottom: 2px;
 }
 
+.blog-thumb {
+  display: block;
+  margin-top: 6px;
+}
+
+.blog-thumb img {
+  display: block;
+  width: 160px;
+  height: auto;
+  border: 2px solid #808080;
+}
+
 .blog-entry time,
 .post-header time {
   color: #666666;
@@ -348,9 +360,10 @@ main {
 }
 
 .gallery-slide img {
-  width: 100%;
+  width: auto;
   max-width: 100%;
   height: auto;
+  max-height: 80vh;
   border: none;
   display: block;
   margin: 0 auto;

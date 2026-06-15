@@ -24,7 +24,7 @@ Folks are discussing the creation of a water battery just outside the boundary o
 
 In 2018, the Wyoming Public Lands Initiative met with representatives from various counties in the state to figure out what to do with WSAs. Bennett Mountain (and a few other WSAs) are in Carbon County. These folks recommended that Bennett Mountain be designated a special management area — prohibiting energy development but allowing some motorized access — rather than full wilderness.
 
-The recommendation was used as part of the inspiration for Sen. Barasso's [bill](https://www.wyomingpublicmedia.org/natural-resources-energy/2021-06-21/barrasso-introduces-legislation-from-the-wyoming-public-lands-initiative) that moves WSAs into multiple use or Wilderness. Read the original piece in [Western Confluence](https://westernconfluence.org/what-to-do-with-wilderness-study-areas/). This bill has currently passed the Senate but I think it has not been heard in the house. Also see the WyoFile article [here](https://wyofile.com/barrasso-sponsored-wyo-wilderness-bill-gets-a-senate-hearing/)
+The recommendation was used as part of the inspiration for Sen. Barrasso's [bill](https://www.wyomingpublicmedia.org/natural-resources-energy/2021-06-21/barrasso-introduces-legislation-from-the-wyoming-public-lands-initiative) that moves WSAs into multiple use or Wilderness. Read the original piece in [Western Confluence](https://westernconfluence.org/what-to-do-with-wilderness-study-areas/). This bill has currently passed the Senate but I think it has not been heard in the house. Also see the WyoFile article [here](https://wyofile.com/barrasso-sponsored-wyo-wilderness-bill-gets-a-senate-hearing/)
 
 ## Access
 
@@ -40,7 +40,7 @@ Keep an eye out for lightning exposure when hiking on the ridge. There are a lot
 
 ## Infrastructure
 
-None. No designated trails. You will find cattle trails along the main ridge and down into most valleys. Those trails will require some bushwacking. If you are horseback, then riding up the road and then along the ridge might not be bad.
+None. No designated trails. You will find cattle trails along the main ridge and down into most valleys. Those trails will require some bushwhacking. If you are horseback, then riding up the road and then along the ridge might not be bad.
 
 ## Inspiration
 

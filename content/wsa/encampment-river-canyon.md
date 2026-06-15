@@ -14,17 +14,17 @@ The Encampment river is the perfect size mountain river, to my eyes. You would t
 
 The river's mother is the Sierra Madre mountains. The Encampment joins the North Platte River near Riverside, Wyoming.
 
-Riverside and Encampment are right next to one another, so one wonders why the towns don't join like the rivers they neigbor. Turns out they were platted separately and then somebody found a big chunk of copper near Encampment. Soon therafter Encampment was known as the Pittsburg of the West. Several million dollars of copper came down out of the Madre on the longest aerial tramway in the world (16 miles). Riverside stayed separate, during this boom (not sure exactly why, but since they were platted separately, folks would have had to agree to conjoin them). The bust came after eleven years. Neither town has since grown enough to subsume the other.
+Riverside and Encampment are right next to one another, so one wonders why the towns don't join like the rivers they neighbor. Turns out they were platted separately and then somebody found a big chunk of copper near Encampment. Soon thereafter Encampment was known as the Pittsburg of the West. Several million dollars of copper came down out of the Madre on the longest aerial tramway in the world (16 miles). Riverside stayed separate, during this boom (not sure exactly why, but since they were platted separately, folks would have had to agree to conjoin them). The bust came after eleven years. Neither town has since grown enough to subsume the other.
 
 Back in the mountain man days, trappers would camp in Encampment, calling it 'Camp le grand'...which to me suggests it was not too windy and beavers were nearby. Indeed, the valley near there seems to have better weather than some other parts of southeast Wyoming. Unsurprisingly, Jim Bridger came through here.
 
-Some of the campsites you will see along the Encampment River are just so damn nice you have to imagine the generations of native peoples and then the mountain men using them. When you are laying there looking at the stars, think about who else might have done the same.
+Some of the campsites you will see along the Encampment River are just so damn nice you have to imagine the generations of native peoples and then the mountain men using them. When you are lying there looking at the stars, think about who else might have done the same.
 
 Encampment has a good new restaurant called 'The Divide' and a museum about the considerable history in the area.
 
 ## News
 
-This is one of WSAs that Barrasso's bill (S.681) would turn into a Wilderness area. This was agreed upon during the Carbon County Wyoming Public Lands Initiative meetings. You can read about this [here](https://westernconfluence.org/what-to-do-with-wilderness-study-areas/) on Western Confluence.
+This is one of the WSAs that Barrasso's bill (S.681) would turn into a Wilderness area. This was agreed upon during the Carbon County Wyoming Public Lands Initiative meetings. You can read about this [here](https://westernconfluence.org/what-to-do-with-wilderness-study-areas/) on Western Confluence.
 
 ## Access
 

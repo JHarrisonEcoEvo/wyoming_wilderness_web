@@ -28,7 +28,7 @@ There is a running fight about oil and gas development in this area.
 
 The 'Golden Triangle', which is the area between Farson, South Pass, and Big Sandy Wyoming is one of a kind. It is the heart of sage grouse country. The longest mule deer migration corridors course through this portion of the Red Desert. There is quite a bit of oil and gas extraction in parts of the Red Desert, but this area is still pretty untouched. It really is a gem. 
 
-The BLM took leasing of these areas off the table in 2025, due to general public disaproval. But, it seems likely that the area will be pursued by driling companies again.
+The BLM took leasing of these areas off the table in 2025, due to general public disapproval. But, it seems likely that the area will be pursued by drilling companies again.
 
 Read about the leasing story [here](https://www.hcn.org/issues/58-3/how-trumps-oil-and-gas-agenda-threatens-critical-wyoming-wildlife-habitat/) and [here](https://www.wyomingnews.com/laramieboomerang/news/drilling-lease-slated-2-miles-from-world-s-largest-sage-grouse-lek/article_c5ea0f36-dfd8-4225-ae4a-12eade30f3ac.html)
 
@@ -36,7 +36,7 @@ A Wild horse roundup is scheduled for this area. As of April 2026 the BLM is acc
 
 ## Access
 
-From Oregon Buttes Road, you can take a decent road heaaded towards Continental Peak. Medium clearance will get you within a few miles of the peak, at least.
+From Oregon Buttes Road, you can take a decent road headed towards Continental Peak. Medium clearance will get you within a few miles of the peak, at least.
 
 From the south, you can get within about 1.5 miles with a medium clearance car (unless you are a very boring driver). From there you will need to walk or ride your horse, but that is the fun part.
 

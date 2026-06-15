@@ -18,17 +18,17 @@ In progress...
 
 ## Access
 
-From any direction there are a variety of forest service roads or short BLM roads that get to the edge of this wilderness. Most of these roads are suitable for low-clearance vehicles.
+From any direction there are a variety of forest service roads or short BLM roads that get to the edge of this Wilderness. Most of these roads are suitable for low-clearance vehicles, but if you try you can find some more interesting jeep tracks.
 
 ## Safety
 
-While hiking, there is nothing particularly unusual for the forested mountains to consider from a safety standpoint.
+While hiking, there is nothing particularly unusual to consider from a safety standpoint.
 
 On the water, there are a few serious rapids to scout at higher water. Check this [awesome video](https://www.youtube.com/watch?v=6XgmUqjAyH0) out. Fire and brimstone coming down on my head is right--hot damn that is some water! American Whitewater page [here](https://www.americanwhitewater.org/content/River/view/river-detail/2464/main).
 
 ## Infrastructure
 
-There are a few trails. The Douglas Creek Trail notably.
+There are a few trails. The Douglas Creek Trail is about it. It typically has a lot of deadfall on it until a horsepacker or the Forest Service cuts it out.
 
 ## Inspiration
 
