@@ -1,7 +1,7 @@
 ---
 title: "Black Ridge Canyon Wilderness - Mee to Knowles"
 date: 2026-06-14
-draft: false
+draft: true
 ---
 
 Black Ridge Canyon Wilderness is tucked south of the Colorado river near Grand Junction. It doesn't seem like it is visited that often, not much in the way of trails and you have to either float across the river or drive some dirt roads to get to it. All the better! It is hard to find solitude in Colorado.

@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-draft: false
+draft: true
 ---
 
 Public lands related legislation and whatever else I feel like writing about.
