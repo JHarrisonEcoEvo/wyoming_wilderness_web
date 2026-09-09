@@ -7,3 +7,5 @@ What is a 'Wilderness'? You may have your own notion for what counts as wilderne
 Wilderness Study Areas (WSAs) have many of the characteristics of official Wilderness areas, but have not been designated by Congress. We have 45 WSAs in Wyoming and they make up about 1% of the state. There is much talk of shifting many WSAs back into multiple use management — [legislation is currently pending before Congress](https://www.congress.gov/bill/119th-congress/senate-bill/681). For more, see the [About](/about/) page.
 
 Go out and explore!
+
+Follow the [Wyoming Wilderness Web Substack](https://wyowildernessweb.substack.com/?r=tfwv5&utm_campaign=pub-share-checklist) for site updates, trip reports, and public lands news.
