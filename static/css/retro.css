@@ -425,6 +425,10 @@
   background: #FFFF99;
 }
 
+.retro .sidebar-list li a.sidebar-visited {
+  font-weight: bold;
+}
+
 @media (max-width: 860px) {
   .retro .location-layout {
     grid-template-columns: 1fr;
