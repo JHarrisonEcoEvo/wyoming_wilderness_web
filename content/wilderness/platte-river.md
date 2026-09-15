@@ -4,13 +4,19 @@ type: wilderness
 visited: false
 acreage: 23192
 acreage_km2: 93.85
-elevation_range: "7xxx"
+elevation_range: "7,420–9,158"
 draft: false
-cover: "images/wilderness/platte_river/IMG_9007.jpg"
+cover: "images/wilderness/platte_river/IMG_3487.jpg"
 terrain: "forest"
 ---
 
-In progress...
+
+This is the North Gate rapids of the Platte:
+
+<video controls preload="metadata" playsinline style="width:100%">
+  <source src="/images/wilderness/platte_river/IMG_2036.mp4" type="video/mp4">
+</video>
+
 
 ## News
 
@@ -33,10 +39,8 @@ There are a few trails. The Douglas Creek Trail is about it. It typically has a 
 ## Inspiration
 
 {{< gallery >}}
-![Fall is a good time to be here.](/images/wilderness/platte_river/IMG_9015.jpg)
+![So many crows congregated here to socialize. What were they discussing?](/images/wilderness/platte_river/IMG_3487.jpg)
 
-![Obligatory aspen shot](/images/wilderness/platte_river/IMG_9012.jpg)
-
-![Still waters near an old impoundment of some sort](/images/wilderness/platte_river/IMG_9026.jpg)
+![There is beauty in the burn.](/images/wilderness/platte_river/IMG_3496.jpg)
 
 {{< /gallery >}}
