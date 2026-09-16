@@ -52,3 +52,6 @@ None. There are some trails but they are not maintained very well.
 ## Resources
 
 - [Savage Run Wilderness — Medicine Bow NF (USFS)](https://www.fs.usda.gov/r02/mbrtb/recreation/savage-run-wilderness) — official USFS page 
+- [Savage Run Wilderness — Wilderness.net](https://wilderness.net/visit-wilderness/?ID=535)
+- [Savage Run — Away From the Grind](https://www.awayfromthegrind.com/hiking/wyoming/savage-run-medicine-bow-national-forest-wyoming/) — A good trip and inkling into what the area was like pre-burn.
+- [Mullen Fire](https://en.wikipedia.org/wiki/Mullen_Fire) — the 2020 fire started inside the Savage Run, of unknown causes. Burned a large swathe of the Snowies.
