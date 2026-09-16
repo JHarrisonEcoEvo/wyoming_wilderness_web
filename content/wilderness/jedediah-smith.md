@@ -4,7 +4,7 @@ type: wilderness
 visited: true
 acreage: 123205
 acreage_km2: 498.59
-elevation_range: "6,520-10,915"
+elevation_range: "6,520–10,915"
 draft: false
 cover: "images/wilderness/jedediah-smith/IMG_1735.jpg"
 terrain: "forest"

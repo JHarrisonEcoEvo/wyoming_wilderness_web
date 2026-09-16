@@ -28,10 +28,6 @@ Nothing unique to this area. Since the CDT goes through the center of the wilder
 
 Numerous miles of trails lay within this wilderness. Enjoy.
 
-## Resources
-- [Huston Park Wilderness — Medicine Bow NF](https://wyofile.com/huston-park-wilderness-leaving-trail-wyomings-sierra-madre/) — A nice trip report by Emilene Ostlind
-- [GeoWyo: Battle Pass Byway](https://www.geowyo.com/battle-pass-byway---wy-highway-70.html) — Good info on the geology of the area. This talks about the whole Battle Pass Byway just north of the wilderness.
-
 ## Inspiration
 
 {{< gallery >}}
@@ -44,3 +40,7 @@ Numerous miles of trails lay within this wilderness. Enjoy.
 ![Good views from the roof of the Sierra Madre.](/images/wilderness/huston_park/IMG_3144.jpg)
 
 {{< /gallery >}}
+
+## Resources
+- [Huston Park Wilderness — Medicine Bow NF](https://wyofile.com/huston-park-wilderness-leaving-trail-wyomings-sierra-madre/) — A nice trip report by Emilene Ostlind
+- [GeoWyo: Battle Pass Byway](https://www.geowyo.com/battle-pass-byway---wy-highway-70.html) — Good info on the geology of the area. This talks about the whole Battle Pass Byway just north of the wilderness.
