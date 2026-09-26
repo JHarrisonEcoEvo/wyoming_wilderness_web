@@ -10,17 +10,11 @@ cover: "/images/wilderness/platte_river/IMG_3496.jpg"
 terrain: "forest"
 ---
 
-I have so much to say about this wilderness, my most visited. My memories are my own and you should make yours...
+I have so much to say about this wilderness, my most visited.
 
-Let's say that I have had some of my best wildlife encounters here. A fox and I watching each other as the wind blows. Eyes (not a fox) in the darkness following me as I pack meat through the night. Elk walking right past in the snow. The click of a safety, just a little too loud.
+I am not quite ready to write up a full story from here yet.
 
-And on the water, memories:
-
-Steeling ourselves for North Gate Canyon and chatting. Not paying enough attention and then my friend said, 'We should not be here.' Right as our 2-person catamaran went into a big hole and got stuck, surfing. Then, 'Let's try to grab the current with our paddles...' it worked, the main current saved us from ourselves, we were both surprised. North Gate at high water and our partner's boat damn near perpendicular–at least in my mind's eye. Then shooting straight down the gut of the rapid by 6 mile gap.
-
-6 mile gap. Found a lion killed elk there some years ago when I first moved to Wyoming. One of the first places I caught trout in the Rockies.
-
-Salmon fly hatch of biblical proportions while fishing. Like the periodical cicada blitzes of the East, exuvia coating everything. I have seen many entomological outbursts, but this was one of the most spectacular.
+A preview: Steeling ourselves for North Gate Canyon and chatting. Not paying enough attention and then my friend said, 'We should not be here.' Right as our 2-person catamaran went into a big hole and got stuck, surfing. Then, 'Let's try to grab the current with our paddles...' it worked, the main current saved us from ourselves, we were both surprised. North Gate at high water and our partner's boat appearing near perpendicular as it went through the rapids.
 
 What a place! Go make your own story.
 
@@ -31,6 +25,7 @@ What a place! Go make your own story.
 This wilderness was designated in 1984. Dick Cheney and Malcolm Wallop sponsored it.
 
 Douglas Creek is the main drainage of this wilderness, aside from the Platte, of course. This creek was a tie-hack stream. This meant back in the Union Pacific days, when men were breaking their backs for the golden spike, crews went to the hills to find trees to run rails upon. They cut down trees and flumed them down to the track. Throughout the Snowies you can find the remnants of these crews. This was in 1868, the same year gold was discovered in the area.
+
 ## Access
 
 From any direction there are a variety of forest service roads or short BLM roads that get to the edge of this Wilderness. Most of these roads are suitable for low-clearance vehicles, but if you try you can find some more interesting jeep tracks.
@@ -57,6 +52,6 @@ There are a few trails. The Douglas Creek Trail is about it. It typically has a 
 ## Resources
 
 - [Tie hacks — WyoHistory.org](https://www.wyohistory.org/tags/tie-hacks) — a few words of the men who made the path of the iron horse. The resources here are from elsewhere in the state, but you get the idea.
-- [Disturbance legacies of historic tie-drives — Ruffing, Daniels & Dwire (2015)](https://research.fs.usda.gov/treesearch/47754) — The tie drives changed the shape of Creeks.
+- [Disturbance legacies of historic tie-drives — Ruffing, Daniels & Dwire (2015)](https://research.fs.usda.gov/treesearch/47754) — The tie drives changed the shape of creeks.
 - [Tie hacks from southern Wyoming — Sheridan Media](https://sheridanmedia.com/alt/117522/sclt-talk-features-tie-hacks-from-southern-wyoming/) — talk covering the tie hack camps of the Medicine Bows
 - [Douglas Creek placer gold district](https://douglascreekgold.blogspot.com/2010/06/douglas-creek-placer-gold-district.html) — History of gold in Douglas Creek
