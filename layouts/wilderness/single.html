@@ -4,7 +4,6 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="location-layout">
 <article class="location-page">
   <h1>{{ .Title }}</h1>
 
@@ -49,7 +48,5 @@
 
   {{ .Content }}
 </article>
-{{ partial "location-sidebar.html" . }}
 {{ partial "location-map.html" . }}
-</div>
 {{ end }}

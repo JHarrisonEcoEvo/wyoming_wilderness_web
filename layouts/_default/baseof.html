@@ -41,6 +41,47 @@
     }
   }
 
+  // Dropdown menus (top nav + homepage)
+  var wrappers = document.querySelectorAll('.location-menu-wrapper, .nav-dropdown');
+  function closeAllMenus() {
+    wrappers.forEach(function (w) {
+      w.classList.remove('open');
+      var b = w.querySelector('.location-menu-btn, .nav-dropdown-btn');
+      if (b) b.setAttribute('aria-expanded', 'false');
+    });
+  }
+  wrappers.forEach(function (wrapper) {
+    var btn = wrapper.querySelector('.location-menu-btn, .nav-dropdown-btn');
+    if (!btn) return;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var isOpen = wrapper.classList.contains('open');
+      closeAllMenus();
+      if (!isOpen) {
+        wrapper.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+  document.addEventListener('click', closeAllMenus);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAllMenus(); });
+
+  // "more below" hint: hide once the list is scrolled to the end (or if it fits)
+  document.querySelectorAll('.nav-dropdown-panel, .location-menu-dropdown').forEach(function (panel) {
+    if (!panel.querySelector('.menu-scroll-hint')) return;
+    function sync() {
+      var overflows = panel.scrollHeight - panel.clientHeight > 4;
+      panel.classList.toggle('no-overflow', !overflows);
+      panel.classList.toggle('scrolled-to-end',
+        overflows && panel.scrollTop + panel.clientHeight >= panel.scrollHeight - 4);
+    }
+    panel.addEventListener('scroll', sync);
+    window.addEventListener('resize', sync);
+    var btn = panel.parentNode.querySelector('.nav-dropdown-btn, .location-menu-btn');
+    if (btn) btn.addEventListener('click', function () { setTimeout(sync, 0); });
+    sync();
+  });
+
   // Theme toggle
   var toggle = document.getElementById('theme-toggle');
   if (toggle) {

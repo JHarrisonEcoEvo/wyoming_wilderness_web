@@ -1,0 +1,15 @@
+{{/* Dropdown list for one location type. Call with: dict "ctx" . "type" "wsa" */}}
+{{ $pages := sort (where .ctx.Site.RegularPages "Type" .type) "Title" }}
+{{ $visited := where $pages "Params.visited" true }}
+{{ $unvisited := complement $visited $pages }}
+<ul class="location-list">
+  {{ range $visited }}
+  <li class="location-item location-visited"><a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a></li>
+  {{ end }}
+  {{ if $unvisited }}
+  <li class="location-group-label" role="presentation">Not visited yet</li>
+  {{ range $unvisited }}
+  <li class="location-item location-unvisited"><a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a></li>
+  {{ end }}
+  {{ end }}
+</ul>

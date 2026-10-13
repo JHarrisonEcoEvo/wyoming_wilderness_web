@@ -7,6 +7,6 @@ acreage_km2: 38.23
 draft: false
 ---
 
-I have not been to this WSA yet. For information check out:
+I have not visited this location yet. Soon!
 
-- [BLM — Buffalo Hump WSA](https://www.blm.gov/Programs/National-Conservation-Lands/Wyoming/Buffalo-Hump-WSA) — official BLM page; access from Farson via Highway 191 south then east on the Fifteen Mile Knoll Cutoff Road
+- [BLM — Buffalo Hump WSA](https://www.blm.gov/programs/national-conservation-lands/wyoming/buffalo-hump-wsa) — official BLM page; access from Farson via Highway 191 south then east on the Fifteen Mile Knoll Cutoff Road

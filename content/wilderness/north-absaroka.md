@@ -7,8 +7,6 @@ acreage_km2: 1391.94
 draft: false
 ---
 
-Details from my time here are forthcoming. For information check out:
+I have not visited this location yet. Soon!
 
-- [North Absaroka Wilderness — Shoshone NF](https://www.fs.usda.gov/recarea/shoshone/recarea/?recid=26432) — USFS page covering trailheads and access routes from the Cody side
-- [AllTrails: North Absaroka Wilderness trails](https://www.alltrails.com/parks/us/wyoming/north-absaroka-wilderness) — route listings including Sunlight Basin and Dead Indian Pass approaches
-- [GeoWyo: North Absaroka](https://geowyo.com/north-absaroka-wilderness.html) — Wyoming-focused overview with access roads and trailhead notes
+- [Shoshone National Forest — Wilderness](https://www.fs.usda.gov/r02/shoshone/recreation/wilderness) — official Forest Service page

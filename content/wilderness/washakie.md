@@ -8,7 +8,7 @@ elevation_range: "6,600–13,153"
 draft: false
 terrain: "forest"
 ---
-Details from my time here are forthcoming. Meanwhile, check out these resources:
+
+I have visited this location, but have not had a chance to write it up yet. Soon!
 
 - [Washakie Wilderness — Shoshone NF (USFS)](https://www.fs.usda.gov/r02/shoshone/recreation/washakie-wilderness) — official USFS page with geology, wildlife, regulations, and map links
-- [Washakie Wilderness — Wilderness.net](https://wilderness.net/visit-wilderness/?ID=632) — NWPS database entry with acreage, bordering lands, and volcanic geology notes

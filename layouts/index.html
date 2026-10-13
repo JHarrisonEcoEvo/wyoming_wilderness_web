@@ -9,28 +9,18 @@
     {{ .Content }}
   </section>
 
+  <aside class="quest-blurb">
+    This website has grown from a quest to visit all of Wyoming's WSAs and Wilderness areas. Follow the <a href="{{ "blog/" | relURL }}">blog</a> for updates. Visited locations have a short essay, notes on access and photos. These are bolded in the menus.
+  </aside>
+
   <section class="location-menus">
     <div class="location-menu-wrapper" id="menu-wsa">
       <button class="location-menu-btn" aria-haspopup="true" aria-expanded="false">
         Wilderness Study Areas <span class="menu-arrow">▾</span>
       </button>
       <div class="location-menu-dropdown" role="menu">
-        <ul class="location-list">
-          {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
-            {{ if eq .Params.visited true }}
-            <li class="location-item location-visited">
-              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          {{ end }}
-          {{ range sort (where .Site.RegularPages "Type" "wsa") "Title" }}
-            {{ if ne .Params.visited true }}
-            <li class="location-item location-unvisited">
-              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          {{ end }}
-        </ul>
+        {{ partial "location-list.html" (dict "ctx" $ "type" "wsa") }}
+        <div class="menu-scroll-hint" aria-hidden="true">&#9662; more &#9662;</div>
       </div>
     </div>
 
@@ -39,22 +29,8 @@
         <span class="menu-arrow">▾</span> Designated Wilderness Areas
       </button>
       <div class="location-menu-dropdown" role="menu">
-        <ul class="location-list">
-          {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
-            {{ if eq .Params.visited true }}
-            <li class="location-item location-visited">
-              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          {{ end }}
-          {{ range sort (where .Site.RegularPages "Type" "wilderness") "Title" }}
-            {{ if ne .Params.visited true }}
-            <li class="location-item location-unvisited">
-              <a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          {{ end }}
-        </ul>
+        {{ partial "location-list.html" (dict "ctx" $ "type" "wilderness") }}
+        <div class="menu-scroll-hint" aria-hidden="true">&#9662; more &#9662;</div>
       </div>
     </div>
   </section>
@@ -116,29 +92,6 @@ window.sitePages = {
 };
 
 (function() {
-  // Dropdown menus
-  var wrappers = document.querySelectorAll('.location-menu-wrapper');
-  function closeAll() {
-    wrappers.forEach(function(w) {
-      w.classList.remove('open');
-      w.querySelector('.location-menu-btn').setAttribute('aria-expanded', 'false');
-    });
-  }
-  wrappers.forEach(function(wrapper) {
-    var btn = wrapper.querySelector('.location-menu-btn');
-    btn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      var isOpen = wrapper.classList.contains('open');
-      closeAll();
-      if (!isOpen) {
-        wrapper.classList.add('open');
-        btn.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-  document.addEventListener('click', closeAll);
-  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeAll(); });
-
   // Map
   var cssLink = document.querySelector('link[href*="modern.css"]');
   var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';

@@ -248,6 +248,71 @@ main {
   line-height: 1.85;
 }
 
+.quest-blurb {
+  max-width: 40rem;
+  margin: -1.5rem auto 3rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  font-size: 0.95rem;
+}
+
+/* ===== Top nav dropdowns ===== */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-btn {
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.nav-dropdown-btn:hover,
+.nav-dropdown.open .nav-dropdown-btn {
+  color: var(--heading);
+  background: none;
+}
+
+.nav-arrow {
+  font-size: 0.7rem;
+  color: var(--canyon);
+  transition: transform 0.15s;
+  line-height: 1;
+}
+
+.nav-dropdown.open .nav-arrow {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-panel {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  left: 0;
+  min-width: 240px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  z-index: 10000;
+}
+
+.nav-dropdown.open .nav-dropdown-panel {
+  display: block;
+}
+
 /* ===== Homepage menus ===== */
 .location-menus {
   display: grid;
@@ -469,103 +534,12 @@ map-popup .leaflet-popup-content-wrapper {
   border: none;
 }
 
-/* ===== Location layout (article + sidebar) ===== */
-.location-layout {
-  display: grid;
-  grid-template-columns: 1fr 200px;
-  gap: 3rem;
-  align-items: start;
-}
-
-.location-sidebar {
-  position: sticky;
-  top: 4.5rem;
-  max-height: calc(100vh - 6rem);
-  overflow-y: auto;
-}
-
-.sidebar-section {
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  margin-bottom: 0.75rem;
-  overflow: hidden;
-}
-
-.sidebar-heading {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-  padding: 0.6rem 0.85rem;
-  cursor: pointer;
-  user-select: none;
-  list-style: none;
-  background: var(--surface);
-}
-
-.sidebar-heading::-webkit-details-marker { display: none; }
-
-.sidebar-heading::after {
-  content: ' ▾';
-  color: var(--canyon);
-  font-size: 0.8rem;
-}
-
-.sidebar-section[open] .sidebar-heading::after {
-  content: ' ▴';
-}
-
-.sidebar-heading:hover {
-  color: var(--heading);
-}
-
-.sidebar-list {
-  list-style: none;
-  margin: 0;
-  padding: 0.25rem 0;
-  border-top: 1px solid var(--border);
-  background: var(--surface);
-}
-
-.sidebar-list li a {
-  display: block;
-  padding: 0.2rem 0.85rem;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  text-decoration: none;
-  line-height: 1.5;
-}
-
-.sidebar-list li a:hover {
-  color: var(--accent);
-  background: var(--accent-light);
-}
-
-.sidebar-list li a.sidebar-current {
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.sidebar-list li a.sidebar-visited {
-  font-weight: 600;
-  color: var(--text);
-}
-
-@media (max-width: 860px) {
-  .location-layout {
-    grid-template-columns: 1fr;
-  }
-  .location-sidebar {
-    position: static;
-    max-height: none;
-  }
-}
-
 /* ===== Page Content ===== */
 .page-content,
 .location-page {
   max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-content h1,
@@ -862,6 +836,18 @@ map-popup .leaflet-popup-content-wrapper {
     font-size: 1.8rem;
   }
 
+  .nav-dropdown-btn {
+    font-size: 0.8rem;
+  }
+
+  .nav-dropdown-panel {
+    min-width: 0;
+    left: auto;
+    right: 0;
+    width: max-content;
+    max-width: 85vw;
+  }
+
   /* ===== Mobile dropdown menus ===== */
   .location-menus {
     grid-template-columns: 1fr;
@@ -908,4 +894,38 @@ map-popup .leaflet-popup-content-wrapper {
     font-size: 0.95rem;
     white-space: normal;
   }
+}
+
+/* ===== "more below" scroll hint in dropdowns ===== */
+.menu-scroll-hint {
+  position: sticky;
+  bottom: 0;
+  padding: 0.3rem 0 0.35rem;
+  text-align: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--canyon);
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.scrolled-to-end .menu-scroll-hint,
+.no-overflow .menu-scroll-hint {
+  opacity: 0;
+}
+
+/* ===== "Not visited yet" group label ===== */
+.location-group-label {
+  padding: 0.5rem 1rem 0.25rem;
+  margin-top: 0.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
 }

@@ -5,6 +5,24 @@
       {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
+      <li class="nav-dropdown">
+        <button class="nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">
+          Study Areas <span class="nav-arrow">&#9662;</span>
+        </button>
+        <div class="nav-dropdown-panel" role="menu">
+          {{ partial "location-list.html" (dict "ctx" $ "type" "wsa") }}
+          <div class="menu-scroll-hint" aria-hidden="true">&#9662; more &#9662;</div>
+        </div>
+      </li>
+      <li class="nav-dropdown">
+        <button class="nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">
+          Wilderness Areas <span class="nav-arrow">&#9662;</span>
+        </button>
+        <div class="nav-dropdown-panel" role="menu">
+          {{ partial "location-list.html" (dict "ctx" $ "type" "wilderness") }}
+          <div class="menu-scroll-hint" aria-hidden="true">&#9662; more &#9662;</div>
+        </div>
+      </li>
     </ul>
     <a href="#" id="theme-toggle" class="theme-toggle">Go to the 1990s</a>
   </div>
