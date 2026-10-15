@@ -42,7 +42,10 @@
 
   {{ if .Params.visited }}
     {{ with .Params.cover }}
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="location-hero-img">
+    <figure class="location-hero">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.cover_caption | default $.Title }}" class="location-hero-img">
+      {{ with $.Params.cover_caption }}<figcaption class="location-hero-caption">{{ . }}</figcaption>{{ end }}
+    </figure>
     {{ end }}
   {{ end }}
 

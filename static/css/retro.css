@@ -411,6 +411,20 @@
   line-height: 1.5;
 }
 
+.retro .page-content h3,
+.retro .location-page h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.retro .page-content blockquote,
+.retro .location-page blockquote {
+  background-color: #F5F0DC;
+  border-left: 5px solid #800000;
+  padding: 8px 12px;
+  margin: 12px 0;
+}
+
 .retro .page-content ul,
 .retro .page-content ol,
 .retro .location-page ul,
@@ -525,6 +539,21 @@
 .retro .location-page img {
   border: 2px solid #000000;
   margin: 4px 0 8px;
+}
+
+.retro .location-hero {
+  margin: 4px 0 8px;
+}
+
+.retro .location-page .location-hero-img {
+  margin: 0;
+}
+
+.retro .location-hero-caption {
+  font-family: "Times New Roman", serif;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: 2px;
 }
 
 /* ===== Gallery ===== */

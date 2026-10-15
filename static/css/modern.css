@@ -580,6 +580,26 @@ map-popup .leaflet-popup-content-wrapper {
   line-height: 1.85;
 }
 
+.page-content h3,
+.location-page h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.page-content blockquote,
+.location-page blockquote {
+  background-color: var(--accent-light);
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+.page-content blockquote p:last-child,
+.location-page blockquote p:last-child {
+  margin-bottom: 0;
+}
+
 .page-content ul,
 .page-content ol,
 .location-page ul,
@@ -703,6 +723,21 @@ map-popup .leaflet-popup-content-wrapper {
 .location-page img {
   margin: 1.25rem 0;
   border: none;
+}
+
+.location-hero {
+  margin: 1.25rem 0;
+}
+
+.location-page .location-hero-img {
+  margin: 0;
+}
+
+.location-hero-caption {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.4rem;
 }
 
 /* ===== Gallery ===== */
