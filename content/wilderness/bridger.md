@@ -22,7 +22,7 @@ History aside, one would have to search high and low for a better place to backp
 
 ## Conservation
 
-Leave No Trace principles really matter here. Some areas have been shat upon by so many people that some say you should not even swim in the lakes. That is a travesty. I hate carrying my own poop around in a bag; but we all need to do that for some of these high traffic zones. I recall meeting a dude in this area back in the day who was walking around with a giant trash can strapped on his back. He was spending all day every day picking up human shit.
+Leave No Trace principles really matter here. Some areas have been shat upon by so many people that some say you should not even swim in the lakes. That is a travesty. I hate carrying my own poop around in a bag; but we all need to do that for some of these high traffic zones. Years ago, I recall meeting a dude in this area who was walking around with a giant trash can strapped on his back. He was spending all day every day picking up poop. Given the surroundings, it actually did not seem like a bad job—but we can do better!
 
 ## News
 

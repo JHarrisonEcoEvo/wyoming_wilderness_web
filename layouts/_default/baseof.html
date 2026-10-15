@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <link rel="stylesheet" href="{{ "css/modern.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/retro.css" | relURL }}">
+  <link rel="stylesheet" href="{{ printf "css/modern.css?v=%s" (md5 (readFile "static/css/modern.css")) | relURL }}">
+  <link rel="stylesheet" href="{{ printf "css/retro.css?v=%s" (md5 (readFile "static/css/retro.css")) | relURL }}">
   {{ block "extrahead" . }}{{ end }}
 </head>
 <body>
@@ -20,7 +20,7 @@
 <script>
 (function () {
   var cssLink = document.querySelector('link[rel="stylesheet"]');
-  var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';
+  var sitePath = cssLink ? cssLink.getAttribute('href').replace(/\/css\/modern\.css.*$/, '') : '';
 
   // Hero cover image
   if (window.heroCoverData && window.heroCoverData.length) {

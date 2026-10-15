@@ -94,7 +94,7 @@ window.sitePages = {
 (function() {
   // Map
   var cssLink = document.querySelector('link[href*="modern.css"]');
-  var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';
+  var sitePath = cssLink ? cssLink.getAttribute('href').replace(/\/css\/modern\.css.*$/, '') : '';
 
   if (typeof L === 'undefined') {
     document.getElementById('wy-map').textContent = 'Map failed to load (Leaflet not available)';
