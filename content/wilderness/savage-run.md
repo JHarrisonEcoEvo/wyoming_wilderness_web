@@ -26,6 +26,9 @@ Shortly afterwards, I noticed two moose on the edge of the meadow, presumably ha
 
 This is why roadless wild places are worth protecting.
 
+## Why is it called Savage Run
+According to [this](https://awayfromthegrind.com/hiking/wyoming/savage-run-medicine-bow-national-forest-wyoming/) page by Roger Ludwig, the wilderness is named after the brothers Savage who trapped this area for beaver and then became market hunters for Ft. Steele. This fort lies a bit north of the wilderness, on the plains and near the Platte River. Two of the brothers eventually settled in the Platte River valley. This all comes from Mr. Ludwig's website and he cites a Saratogan historian Gay Day Alcorn as the source.
+
 ## Access
 
 Easy gravel road access to the edge of the wilderness. Sedan accessible if you pick the right roads. There are some side roads requiring high clearance in the general area, but the main roads are very good.
@@ -46,6 +49,8 @@ None. There are some trails but they are not maintained very well.
 ![Early morning light](/images/wilderness/savage_run/IMG_6712.jpg)
 
 ![Four moose were sparring together in the early dawn. What a treat to see!](/images/wilderness/savage_run/IMG_6713.jpg)
+
+![The headwaters of the eponymous stream](/images/wilderness/savage_run/IMG_3740.jpg)
 
 {{< /gallery >}}
 

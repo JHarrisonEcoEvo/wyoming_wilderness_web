@@ -6,7 +6,7 @@ acreage: 23192
 acreage_km2: 93.85
 elevation_range: "7,420–9,158"
 draft: false
-cover: "/images/wilderness/platte_river/IMG_3496.jpg"
+cover: "/images/wilderness/platte_river/IMG_3752.jpg"
 terrain: "forest"
 ---
 
@@ -46,6 +46,10 @@ There are a few trails. The Douglas Creek Trail is about it. It typically has a 
 ![So many crows congregated here to socialize. What were they discussing?](/images/wilderness/platte_river/IMG_3487.jpg)
 
 ![There is beauty in the burn.](/images/wilderness/platte_river/IMG_3496.jpg)
+
+![Autumn moon](/images/wilderness/platte_river/IMG_3752.jpg)
+
+![In a heavily burned area, the plants are coming back. Many young lodgepole and this small Potentilla.](/images/wilderness/platte_river/IMG_3759.jpg)
 
 {{< /gallery >}}
 
