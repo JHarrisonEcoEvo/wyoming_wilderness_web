@@ -23,7 +23,13 @@ This WSA was recommended for study during the 1979–81 inventory by the BLM. La
 
 It seems likely that Lankin Dome was climbed well before people bothered to notify others of first ascents. Since 1970 or so, the National Outdoor Leadership School (NOLS), which is in Lander, has done climbing trips out in the general area. Side note: if you have not read much on Paul Petzoldt or NOLS, then go dig up a book on this character.
 
-I searched the homesteader patent database and the USGS place name database and couldn't find out why this dome is called by the name of Lankin. If anyone knows, please email me.
+*Gus Lankin - the man whose name adorns this rock*
+
+August Lankin lived near the dome in the late 1800s, apparently one of the earliest permanent settlers of the Sweetwater Rocks. His cabin can still be found near the dome. Ruth Beebe in ['Reminiscing along the Sweetwater'](https://archive.org/details/reminiscingalong0000unse) writes that Gus's cabin played host to many of the early settlers. Sadly, Gus may have died due to heartache.
+
+English Joe ran sheep in the area and ended up freezing to death on the way home from the bar. Gus lead the burial procession of English Joe to a niche in the rocks near his place. Ruth Beebe reports that in this beautiful place a cairn can still be found to mark the grave. Shortly after, Gus left this earth by his own hand.
+
+Thanks to a friend and reader of this blog that pointed me to this story and lent me R. Beebe's book.
 
 *What are those giant cartridges lying around?*
 
