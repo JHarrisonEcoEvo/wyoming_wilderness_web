@@ -25,7 +25,7 @@ It seems likely that Lankin Dome was climbed well before people bothered to noti
 
 *Gus Lankin - the man whose name adorns this rock*
 
-August Lankin lived near the dome in the late 1800s, apparently one of the earliest permanent settlers of the Sweetwater Rocks. His cabin can still be found near the dome. Ruth Beebe in ['Reminiscing along the Sweetwater'](https://archive.org/details/reminiscingalong0000unse) writes that Gus's cabin played host to many of the early settlers. Sadly, Gus may have died due to heartache.
+August Lankin lived near the dome in the late 1800s, apparently one of the earliest permanent settlers of the Sweetwater Rocks. His cabin can still be found near the dome. Ruth Beebe in ['Reminiscing along the Sweetwater'](https://archive.org/details/reminiscingalong0000unse) writes that Gus's cabin played host to many of the early settlers. Gus helped build the main stage coach route through these parts, at that time. [For $550](https://www.wyohistory.org/encyclopedia/freight-stage-and-mail-rawlins-fort-washakie-road). Sadly, Gus may have died due to heartache.
 
 English Joe ran sheep in the area and ended up freezing to death on the way home from the bar. Gus lead the burial procession of English Joe to a niche in the rocks near his place. Ruth Beebe reports that in this beautiful place a cairn can still be found to mark the grave. Shortly after, Gus left this earth by his own hand.
 
