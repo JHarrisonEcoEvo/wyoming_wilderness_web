@@ -74,7 +74,7 @@
     }).addTo(map);
 
     var cssLink = document.querySelector('link[rel="stylesheet"]');
-    var sitePath = cssLink ? cssLink.getAttribute('href').replace('/css/modern.css', '') : '';
+    var sitePath = cssLink ? cssLink.getAttribute('href').replace(/\/css\/modern\.css.*$/, '') : '';
 
     fetch(sitePath + geojsonPath)
       .then(function(r) { return r.json(); })
@@ -87,7 +87,10 @@
           return;
         }
 
-        var layer = L.geoJSON({ type: 'FeatureCollection', features: matched });
+        var style = nameKey === 'NLCS_NAME'
+          ? { color: '#cc4400', weight: 2, fillColor: '#ff6600', fillOpacity: 0.35 }
+          : { color: '#0033aa', weight: 2, fillColor: '#1a55cc', fillOpacity: 0.3 };
+        var layer = L.geoJSON({ type: 'FeatureCollection', features: matched }, { style: style }).addTo(map);
         map.fitBounds(layer.getBounds(), { padding: [24, 24] });
       });
   }

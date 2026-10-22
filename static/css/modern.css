@@ -725,6 +725,10 @@ map-popup .leaflet-popup-content-wrapper {
   border: none;
 }
 
+.location-page .location-map img {
+  margin: 0;
+}
+
 .location-hero {
   margin: 1.25rem 0;
 }

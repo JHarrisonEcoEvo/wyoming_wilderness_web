@@ -541,6 +541,11 @@
   margin: 4px 0 8px;
 }
 
+.retro .location-page .location-map img {
+  border: none;
+  margin: 0;
+}
+
 .retro .location-hero {
   margin: 4px 0 8px;
 }
