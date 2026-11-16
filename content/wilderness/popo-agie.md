@@ -13,7 +13,7 @@ terrain: "mountain"
 >
 > — Steve Bechtel
 
-A fellow by the name of Orrin Bonney gave the Cirque its English name in 1941. He and a few others climbed Pingora peak (1940), the anchor to the scenery of this magnificent valley. Since those days this area has attracted every generation of alpine climbers.
+A fellow by the name of Orrin Bonney gave the Cirque of the Towers its English name in 1941. He and a few others climbed Pingora peak (1940), the anchor to the scenery of this magnificent valley. Since those days this area has attracted every generation of alpine climbers.
 
 The rock is solid granite, something around 2–3 billion years old according to what I can find. It is a joy to touch and climb upon. Since the rock was exposed glaciers have had their way with the terrain, crafting an immensity.
 
