@@ -17,6 +17,13 @@ A fellow by the name of Orrin Bonney gave the Cirque of the Towers its English n
 
 The rock is solid granite, something around 2–3 billion years old according to what I can find. It is a joy to touch and climb upon. Since the rock was exposed glaciers have had their way with the terrain, crafting an immensity.
 
+![Pingora Peak](/images/wilderness/popo_agie/IMG_6502.jpg)
+*Pingora Peak stands on reader's right*
+
+> The evening before the climb, while camped at Lonesome Lake, Frank Garnick remarked, "I know some day some damn fool will climb it." The next day he and his two companions did climb it.
+>
+>—Mae Urbanek
+
 The Popo Agie Wilderness holds the Cirque along with about twenty other peaks crossing the 12,000 foot high water mark. Wind River Peak is the tallest of these.
 
 The Wilderness was designated in 1984. Like Cloud Peak, and other mountainous areas of Wyoming, much of the area was protected as a primitive area since the 1930s. During the initial Wilderness designation, Wyoming voiced its disapproval by passing a joint congressional memorial requesting no more Wilderness. The Senate Majority Leader at the time Don Jewitt (R) is quoted as saying, ["I think we now have wilderness areas up to our necks."](https://www.hcn.org/issues/5.12/). I found this statement in a 1973 issue of High Country News from Lander, Wy.
