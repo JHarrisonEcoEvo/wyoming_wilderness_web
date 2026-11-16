@@ -34,7 +34,7 @@ The Wilderness was designated in 1984. Like Cloud Peak, and other mountainous ar
 Thankfully, this landscape was indeed protected as part of the Wyoming Wilderness Act bill of 1984, as championed by [Sen. Malcolm Wallop, with Alan Simpson and Dick Cheney co-sponsoring](https://www.congress.gov/bill/98th-congress/senate-bill/543).
  
 ### What does Popo Agie mean? Where does the water go?
-Pronounced 'puh-PO-zhuh', this is the Crow name for these lands. Some sources I have found translate this as an onomatopoeia—the plopping river. The river descends from the shoulders of Wind River Peak into Sinks Canyon.
+Pronounced 'puh-PO-zhuh', this is the Crow name for these lands. Some sources I have found translate this as an onomatopoeia—the plopping river. Other's say it means 'head water', and still other sources say it refers to wild rye grass. The river descends from the shoulders of Wind River Peak into Sinks Canyon.
 
 Sinks Canyon is a delightful drive or bike ride. I biked it once at the end of the 131 mile sufferfest—the 'Wyo 131' gravel bike ride. I had not been riding much that year, so my knees were unwilling to perform their one single task: bending. I coasted what must have been a dozen miles or more down Sinks Canyon. Perhaps the only longer coast I have had on a bike was in the Himalayas. I rode from around 17,000 feet or so down a very long series of jeep tracks and yak trails. I must have had a 30+ mile descent. Driving up canyon is a common way to approach the Wilderness. Along the way you will see the eponymous feature—the earth's maw swallowing the plopping river.
 
@@ -43,6 +43,12 @@ When the water is high, I don't like standing at the entrance of the sink; this 
 ![Panorama](/images/wilderness/popo_agie/PANO_20180503_182636.jpg)
 
 The water disappears for 3,500 feet before welling back up into a pool with dinosaur-sized trout. The trout bathe in more water than went underground to begin with, and warmer water too. It takes about two hours for the water to make its way back to the sunshine—according to a [dye study](https://www.usgs.gov/publications/use-dye-tracing-water-resources-investigations-wyoming-1967-94). 84% of the dye was recovered. You can take spelunking tours here. Wyoming PBS has some [great footage from the area](https://www.pbs.org/video/sinks-canyon-underground-mysteries-wlqhai/).
+
+### The Rendezvous
+
+The Popo Agie drainage was the location of the mountain man rendezvous (probably 1829). The trappers would roll down out of the hills with beaver pelts in tow. To restock, to meet and greet, but from what I read, mostly to party hard.
+
+The Pinedale Mountain Man Museum is a great resource to learn more of this imagination capturing era. The Meateater American History audio book on the mountain men is also good. Finally, if you are looking for something a bit more lyrical try 'The Big Sky' by A. B. Guthrie Jr.
 
 ### Pressure
 
