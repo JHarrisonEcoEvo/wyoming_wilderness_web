@@ -34,9 +34,11 @@ The Wilderness was designated in 1984. Like Cloud Peak, and other mountainous ar
 Thankfully, this landscape was indeed protected as part of the Wyoming Wilderness Act bill of 1984, as championed by [Sen. Malcolm Wallop, with Alan Simpson and Dick Cheney co-sponsoring](https://www.congress.gov/bill/98th-congress/senate-bill/543).
  
 ### What does Popo Agie mean? Where does the water go?
-Pronounced 'puh-PO-zhuh', this is the Crow name for these lands. Some sources I have found translate this as an onomatopoeia—the plopping river. Other's say it means 'head water', and still other sources say it refers to wild rye grass. The river descends from the shoulders of Wind River Peak into Sinks Canyon.
+Pronounced 'puh-PO-zhuh', this is the Crow name for the river descending from the shoulders of Wind River Peak. Some sources I have found translate this as an onomatopoeia—the plopping river. Other's say it means 'head water', and still other sources say it refers to wild rye grass. The river descends into Sinks Canyon near Lander, Wy.
 
-Sinks Canyon is a delightful drive or bike ride. I biked it once at the end of the 131 mile sufferfest—the 'Wyo 131' gravel bike ride. I had not been riding much that year, so my knees were unwilling to perform their one single task: bending. I coasted what must have been a dozen miles or more down Sinks Canyon. Perhaps the only longer coast I have had on a bike was in the Himalayas. I rode from around 17,000 feet or so down a very long series of jeep tracks and yak trails. I must have had a 30+ mile descent. Driving up canyon is a common way to approach the Wilderness. Along the way you will see the eponymous feature—the earth's maw swallowing the plopping river.
+Sinks Canyon offers a delightful drive or bike ride (so it is not in the wilderness). I biked it once at the end of the 131 mile sufferfest—the ‘Wyo 131’ gravel bike ride. I had not been riding much that year, so my knees were unwilling to perform their one single task: bending. I coasted what must have been a dozen miles or more down Sinks Canyon. Perhaps the only longer coast I have had on a bike was in the Himalayas. I rode from around 17,000 feet or so down a very long series of jeep tracks and yak trails. I must have had a 30+ mile descent.
+
+As one travels this canyon, you will see the eponymous feature—the earth’s maw swallowing the plopping river.
 
 When the water is high, I don't like standing at the entrance of the sink; this place of down-going and rushing.
 
