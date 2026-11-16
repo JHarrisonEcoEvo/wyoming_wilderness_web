@@ -20,6 +20,10 @@ Wyoming made a deal with the Hoover administration so that the Jackson Hole Monu
 
 History aside, one would have to search high and low for a better place to backpack or rock climb than the Wind River Range. The place is pretty busy, by Wyoming Wilderness standards. On a three-day weekend, expect the trailheads to be jam packed. Popular areas like the Cirque of the Towers or Titcomb Basin are not where you should go if you want solitude. But, if you wander away from the Instagram trail you can find a tree to sit under, some clean air to breathe, and nothing but beauty to behold.
 
+> And the rest of you mountaineers! Go to the Wind River Range some time. You will find plenty of excitement there.
+>
+> — Orrin H. Bonney, 1940
+
 ## Conservation
 
 Leave No Trace principles really matter here. Some areas have been shat upon by so many people that some say you should not even swim in the lakes. That is a travesty. I hate carrying my own poop around in a bag; but we all need to do that for some of these high traffic zones. Years ago, I recall meeting a dude in this area who was walking around with a giant trash can strapped on his back. He was spending all day every day picking up poop. Given the surroundings, it actually did not seem like a bad job—but we can do better!
@@ -28,7 +32,9 @@ Leave No Trace principles really matter here. Some areas have been shat upon by 
 
 Green River Lakes Road is slated for construction through 2027. That area burned recently too.
 
-The poopy water story is the biggest bit of news. Part of this story involves Lonesome Lake, which is in the Popo Agie Wilderness next door. Turns out some heavily contaminated water was found in this lake—bad enough that swimming in it would be like taking a lap around a toilet bowl. From what I gather the EPA sat on this sample for two years for some reason. Subsequent samples have found lakes to have tolerable levels of *E. coli*, but the original sample looked for *Enterococcus*. It sounds to me like folks have not done very thorough science. It is likely that poop levels change depending on time of year (lakes 'turn over' with temperature, and that could stir the turd) and one should look for many taxa, not just a few standard indicators. I imagine someone is looking into this; if you are a grad student studying this and want a few hundred bucks then email me.
+The poopy water story is the biggest bit of news. Part of this story involves Lonesome Lake, which is in the [Popo Agie Wilderness](/wilderness/popo-agie/) next door. Turns out some heavily contaminated water was found in this lake—bad enough that swimming in it would be like taking a lap around a toilet bowl. From what I gather the EPA sat on this sample for two years for some reason. Subsequent samples have found lakes to have tolerable levels of *E. coli*, but the original sample looked for *Enterococcus*, which might have caught more bacteria.
+
+It is likely that poop levels change depending on time of year (lakes 'turn over' with temperature, and that could stir the turd) and one should look for many taxa, not just a few standard indicators. I imagine someone is looking into this; if you are a grad student studying this and want a few hundred bucks then email me.
 
 ## Access
 
