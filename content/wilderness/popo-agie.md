@@ -68,7 +68,7 @@ Plenty of trails. Trailheads often have equestrian facilities and bathrooms.
 
 ![The Wolf's Head](/images/wilderness/popo_agie/IMG_6476.jpg)
 
-![A lovely campsite in the Cirque](/images/wilderness/popo_agie/IMG_6494.jpg)
+![A lovely campsite in the Cirque. It is better to camp on hard surfaces when possible.](/images/wilderness/popo_agie/IMG_6494.jpg)
 
 ![The Cirque of the Towers and a random butt](/images/wilderness/popo_agie/IMG_6508.jpg)
 
