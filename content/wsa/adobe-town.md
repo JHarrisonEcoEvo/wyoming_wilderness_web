@@ -38,6 +38,10 @@ Other news is that the wind is still blowing out there, probably with no one to 
 
 ## Access
 
+> ...horrof of all overland teamsters—where all possible ills of western travel are united.
+>
+> J. H. Beadle of the Bitter Creek region
+
 The easiest way to get here is to take Bitter Creek Road south of Highway 80. Go south 24 miles or so and turn east on the Manual Gap road (BLM 4409) by the Eversol Ranch. Go about 13 miles to the WSA north boundary. You could get to here with a low-clearance vehicle, probably. You should certainly be able to get to here with medium clearance. From there you can descend to the Monument Valley portion of the WSA by continuing west, or drive south along the Adobe Town Rim. The road to the south is a faint two track. You could also have stayed on BLM Road 4412 and driven to Skull Creek Rim. You will need some clearance to get right to the rim, but medium clearance will get you close enough to camp and walk the remaining tenth or two of a mile.
 
 I have not tried the road that comes from Baggs.
@@ -46,9 +50,11 @@ You can also go south from Wamsutter and take the Eureka Headquarters road, to t
 
 If you plan on driving around out here much, bring some gas.
 
+Don't drive out here when it is wet unless you want to see what J. H. Beadle was talking about.
+
 ## Safety
 
-The roads become impassable when wet. Don't go out there when rain is forecasted. Water is very hard to find out there (if you do find any near the WSA it will be a livestock trough).
+The roads become impassable when wet. Don't go out there when rain is forecasted, unless you plan on watching rainbows and clouds until the road dries out. Water is very hard to find out there (if you do find any near the WSA it will be a livestock trough).
 
 ## Infrastructure
 
